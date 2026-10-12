@@ -22,9 +22,12 @@ body{background:#888;font-family:"Poppins",sans-serif;display:flex;flex-directio
 #h1 .addr .rule{width:5px;height:176px;background:var(--green)}
 #h1 .pin{width:64px;height:64px;border-radius:50%;background:var(--navy);display:flex;align-items:center;justify-content:center;flex:none}
 
-/* Later pages header 2480 x 500 */
-#h2{height:500px}
-#h2 .logo{position:absolute;left:177px;top:104px;height:152px}
+/* Later pages header 2480 x 250 (slim band) */
+#h2{height:250px}
+#h2 .logo{position:absolute;left:177px;top:60px;height:100px}
+#h2 .tag{position:absolute;right:177px;top:76px;height:68px;display:flex;align-items:center;gap:28px;font-size:34px;font-weight:700;letter-spacing:.04em;color:var(--navy)}
+#h2 .tag span{color:var(--greenstrong)}
+#h2 .tag i{display:block;width:5px;height:68px;background:var(--green)}
 
 /* Footer 2480 x 250 */
 #f{height:250px}
@@ -50,11 +53,12 @@ body{background:#888;font-family:"Poppins",sans-serif;display:flex;flex-directio
 </div>
 
 <div class="piece" id="h2">
-  <div class="band" style="top:0;height:30px;background:var(--forest)"></div>
-  <div class="band" style="top:30px;height:5px;background:var(--green)"></div>
+  <div class="band" style="top:0;height:22px;background:var(--forest)"></div>
+  <div class="band" style="top:22px;height:4px;background:var(--green)"></div>
   <img class="logo" src="assets/medsource-landscape.svg" alt="MedSource Medical Supplies and Equipment">
-  <div class="band" style="top:296px;height:5px;background:var(--green)"></div>
-  <div class="band" style="top:301px;height:14px;background:var(--navy)"></div>
+  <div class="tag"><i></i><div>Certified #Med<span>Mura</span></div></div>
+  <div class="band" style="top:192px;height:4px;background:var(--green)"></div>
+  <div class="band" style="top:196px;height:14px;background:var(--navy)"></div>
 </div>
 
 <div class="piece" id="f">
