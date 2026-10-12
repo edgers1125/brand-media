@@ -2,7 +2,7 @@
 
 | | |
 | --- | --- |
-| Date | Oct 10, 2026 |
+| Date | Oct 13, 2026 (revamped; first made Oct 10) |
 | Type | Print, letterhead template (header and footer images) |
 | Location | MedSource World, 209 Riverside Drive, Provident Village, Marikina City, Philippines |
 | Status | Draft |

@@ -2,7 +2,7 @@
 
 | | |
 | --- | --- |
-| Date | Oct 10, 2026 |
+| Date | Oct 13, 2026 (revamped; first made Oct 10) |
 | Type | Print, letterhead template (header and footer images) |
 | Location | Digital sales (no store address) |
 | Status | Draft |
