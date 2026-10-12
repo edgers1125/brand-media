@@ -8,13 +8,19 @@
 | Status | Approved |
 | Design | Built from the MedSource Design System as HTML, see [`source/cover.html`](source/cover.html) |
 
-Page cover announcing "The certified #MedMura, Medical Source is now in the Philippines". Forest headline band with the green Mura pill, navy contact footer (0906 299 3555, sales.quotations@medsource.com.ph), PhilHealth YAKAP and DSWD AICS GL accreditation badges beside the logo, and a diagonal photo panel with the hospital bed, equipment and pharmacy shelves. All text sits inside the centre 1200 px so it survives mobile cropping.
+Page cover announcing "The certified #MedMura, Medical Source is now in the Philippines". Forest headline band with the green Mura pill, navy contact footer (0906 299 3555, sales.quotations@medsource.com.ph), PhilHealth YAKAP and DSWD AICS GL accreditation badges beside the logo, and a slim diagonal photo column with the hospital bed, equipment and pharmacy shelves.
 
 Not scheduled: a cover is uploaded by hand on the Facebook page, so there is no Metricool post, story or captions.
+
+## Device fit
+
+Facebook shows one cover at 820 × 312 on desktop and 640 × 360 on phones, which trims the sides. The file is 1640 × 624 (2x desktop). Everything essential (logo, badges, headline, contacts, all three photos) sits inside the phone-safe centre, x 290 to 1350, so nothing is clipped on phones. The outer 270 px each side is plain band colour. The bottom-left corner stays clear of the profile photo on desktop. See [`device-preview.png`](device-preview.png).
 
 ## Image
 
 <img src="facebook-cover-1640x624.png" width="640">
+
+<img src="device-preview.png" width="430">
 
 ## Accreditation badges
 
