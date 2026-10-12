@@ -8,7 +8,7 @@
 | Status | Draft |
 | Design | MedPlace Design System (logo orange and teal, Bricolage Grotesque, DM Sans). Logo vectorized from the supplied file. Source: [source.html](source.html) |
 
-Brand letterhead. Straight orange and teal bands, sticker-style Your #1 provider pill, dark ink on orange. No address or contact details yet; add them to `source.html` when confirmed.
+Brand letterhead. Straight orange and teal bands, sticker-style Your #1 provider pill, dark ink on orange. Contact: 0995-156-0801, davemedplace@gmail.com. No address yet.
 
 ## Files
 

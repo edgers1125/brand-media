@@ -8,7 +8,7 @@
 | Status | Draft |
 | Design | Emmanuelle Design System (Nunito, brand deep, sky). Same logo as the [brand letterhead](../2026-10-letterhead-brand/print.md). Source: [source.html](source.html) |
 
-Government level letterhead for Emmanuelle Pharma & Medical Supplies Distribution. Straight full-width bands like the MedSource World government letterhead. The first-page address block holds placeholders in square brackets (registered address, contact number, email) to fill in `source.html` and re-export.
+Government level letterhead for Emmanuelle Pharma & Medical Supplies Distribution. Same soft look as the [brand letterhead](../2026-10-letterhead-brand/print.md), with the business address (209 Riverside Drive, Provident Village, Marikina City) and no contact person or phone.
 
 ## Files
 

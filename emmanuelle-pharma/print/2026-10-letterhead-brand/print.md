@@ -8,7 +8,7 @@
 | Status | Draft |
 | Design | Emmanuelle Design System (Nunito, cream, sky, sage, brand deep). Logo vectorized from the supplied landscape file. Source: [source.html](source.html) |
 
-Brand level letterhead. Uses the same logo as the [government letterhead](../2026-10-letterhead-government/print.md). Soft rounded mist panel, sage line, Wholesale and Retail, page line and #masmurakayemman in the footer. No address or phone, so it is ready to use as is.
+Brand level letterhead. Uses the same logo as the [government letterhead](../2026-10-letterhead-government/print.md). Soft rounded mist panel, sage line, Wholesale and Retail, page line and #masmurakayemman in the footer. Contact: 0917-512-5050, sales.emedsupplyph@gmail.com.
 
 ## Files
 
