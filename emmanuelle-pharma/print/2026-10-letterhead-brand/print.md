@@ -10,6 +10,8 @@
 
 Brand level letterhead. Uses the same logo as the [government letterhead](../2026-10-letterhead-government/print.md). Soft rounded mist panel, sage line, Wholesale and Retail, page line and #masmurakayemman in the footer. Contact: 0917-512-5050, sales.emedsupplyph@gmail.com.
 
+Revamped Oct 13, 2026 for system-filled letterheads: the lower right side of every header is blank and nothing sits under the logo. Content is held to the top of each header and footer.
+
 ## Files
 
 | Piece | Size | File |

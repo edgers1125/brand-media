@@ -12,6 +12,8 @@ Later pages header revamped Oct 12, 2026 to a slim 2480 × 250 px band (small lo
 
 Brand level letterhead, the Digital Sales header: Certified #MedMura, 0906 299 3555 and sales.quotations@medsource.com.ph. Retail companion to the [MedSource World letterhead](../2026-10-legal-letterhead-template/print.md). Same straight forest and navy bands with brand-green stripes.
 
+Revamped Oct 13, 2026 for system-filled letterheads: the lower right side of every header is blank and nothing sits under the logo. Content is held to the top of each header and footer.
+
 ## Files
 
 | Piece | Size | File |
