@@ -17,7 +17,7 @@ Publications, signage and print for MedPlace Medical Supplies & Pharma. Brand ru
 
 | Date | Piece | Location | Status | Preview |
 | --- | --- | --- | --- | --- |
-| 2026-10-12 | [Letterhead template](print/2026-10-letterhead-template/print.md) | Brand level | Draft | <img src="print/2026-10-letterhead-template/header-first-page-2480x500.png" width="120"> |
+| 2026-10-12 | [Letterhead template](print/2026-10-letterhead-template/print.md) | Brand level | Draft | <img src="print/2026-10-letterhead-template/medplace-letterhead-header-first-page-2480x500.png" width="120"> |
 
 ## Brand kit
 

@@ -14,12 +14,12 @@ Brand letterhead. Straight orange and teal bands, sticker-style Your #1 provider
 
 | Piece | Size | File |
 | --- | --- | --- |
-| First page header | 2480 × 500 px | [PNG](header-first-page-2480x500.png) |
-| Later pages header (slim band) | 2480 × 250 px | [PNG](header-later-pages-2480x250.png) |
-| Footer (every page) | 2480 × 250 px | [PNG](footer-2480x250.png) |
+| First page header | 2480 × 500 px | [PNG](medplace-letterhead-header-first-page-2480x500.png) |
+| Later pages header (slim band) | 2480 × 250 px | [PNG](medplace-letterhead-header-later-pages-2480x250.png) |
+| Footer (every page) | 2480 × 250 px | [PNG](medplace-letterhead-footer-2480x250.png) |
 
 ## Preview
 
-<img src="header-first-page-2480x500.png" width="640">
-<img src="header-later-pages-2480x250.png" width="640">
-<img src="footer-2480x250.png" width="640">
+<img src="medplace-letterhead-header-first-page-2480x500.png" width="640">
+<img src="medplace-letterhead-header-later-pages-2480x250.png" width="640">
+<img src="medplace-letterhead-footer-2480x250.png" width="640">

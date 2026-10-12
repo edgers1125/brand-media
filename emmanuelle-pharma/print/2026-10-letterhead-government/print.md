@@ -14,12 +14,12 @@ Government level letterhead for Emmanuelle Pharma & Medical Supplies Distributio
 
 | Piece | Size | File |
 | --- | --- | --- |
-| First page header | 2480 × 500 px | [PNG](header-first-page-2480x500.png) |
-| Later pages header (slim band) | 2480 × 250 px | [PNG](header-later-pages-2480x250.png) |
-| Footer (every page) | 2480 × 250 px | [PNG](footer-2480x250.png) |
+| First page header | 2480 × 500 px | [PNG](emmanuelle-government-letterhead-header-first-page-2480x500.png) |
+| Later pages header (slim band) | 2480 × 250 px | [PNG](emmanuelle-government-letterhead-header-later-pages-2480x250.png) |
+| Footer (every page) | 2480 × 250 px | [PNG](emmanuelle-government-letterhead-footer-2480x250.png) |
 
 ## Preview
 
-<img src="header-first-page-2480x500.png" width="640">
-<img src="header-later-pages-2480x250.png" width="640">
-<img src="footer-2480x250.png" width="640">
+<img src="emmanuelle-government-letterhead-header-first-page-2480x500.png" width="640">
+<img src="emmanuelle-government-letterhead-header-later-pages-2480x250.png" width="640">
+<img src="emmanuelle-government-letterhead-footer-2480x250.png" width="640">

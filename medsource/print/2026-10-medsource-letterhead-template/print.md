@@ -16,12 +16,12 @@ Retail companion to the [MedSource World letterhead](../2026-10-legal-letterhead
 
 | Piece | Size | File |
 | --- | --- | --- |
-| First page header (with address) | 2480 × 500 px | [PNG](header-first-page-2480x500.png) |
-| Later pages header (slim band, no address) | 2480 × 250 px | [PNG](header-later-pages-2480x250.png) |
-| Footer | 2480 × 250 px | [PNG](footer-2480x250.png) |
+| First page header (with address) | 2480 × 500 px | [PNG](medsource-letterhead-header-first-page-2480x500.png) |
+| Later pages header (slim band, no address) | 2480 × 250 px | [PNG](medsource-letterhead-header-later-pages-2480x250.png) |
+| Footer | 2480 × 250 px | [PNG](medsource-letterhead-footer-2480x250.png) |
 
 ## Preview
 
-<img src="header-first-page-2480x500.png" width="640">
-<img src="header-later-pages-2480x250.png" width="640">
-<img src="footer-2480x250.png" width="640">
+<img src="medsource-letterhead-header-first-page-2480x500.png" width="640">
+<img src="medsource-letterhead-header-later-pages-2480x250.png" width="640">
+<img src="medsource-letterhead-footer-2480x250.png" width="640">

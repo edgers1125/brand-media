@@ -18,8 +18,8 @@ Publications, signage and print for Emmanuelle Pharma & Medical Supplies. Brand 
 
 | Date | Piece | Location | Status | Preview |
 | --- | --- | --- | --- | --- |
-| 2026-10-12 | [Government letterhead](print/2026-10-letterhead-government/print.md) | Government level | Draft | <img src="print/2026-10-letterhead-government/header-first-page-2480x500.png" width="120"> |
-| 2026-10-12 | [Brand letterhead](print/2026-10-letterhead-brand/print.md) | Brand level | Draft | <img src="print/2026-10-letterhead-brand/header-first-page-2480x500.png" width="120"> |
+| 2026-10-12 | [Government letterhead](print/2026-10-letterhead-government/print.md) | Government level | Draft | <img src="print/2026-10-letterhead-government/emmanuelle-government-letterhead-header-first-page-2480x500.png" width="120"> |
+| 2026-10-12 | [Brand letterhead](print/2026-10-letterhead-brand/print.md) | Brand level | Draft | <img src="print/2026-10-letterhead-brand/emmanuelle-brand-letterhead-header-first-page-2480x500.png" width="120"> |
 
 ## Brand kit
 
