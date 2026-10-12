@@ -18,13 +18,14 @@ Publications, signage and print for Emmanuelle Pharma & Medical Supplies. Brand 
 
 | Date | Piece | Location | Status | Preview |
 | --- | --- | --- | --- | --- |
-| | None yet | | | |
+| 2026-10-12 | [Government letterhead](print/2026-10-letterhead-government/print.md) | Government level | Draft | <img src="print/2026-10-letterhead-government/header-first-page-2480x500.png" width="120"> |
+| 2026-10-12 | [Brand letterhead](print/2026-10-letterhead-brand/print.md) | Brand level | Draft | <img src="print/2026-10-letterhead-brand/header-first-page-2480x500.png" width="120"> |
 
 ## Brand kit
 
 - [`brand/guidelines`](brand/guidelines): brand guide and colour/type tokens from the design system
-- [`brand/logos`](brand/logos): add the original logo files here (SVG for print, PNG for quick use)
-- [`brand/fonts`](brand/fonts): Nunito and Nunito Sans (free Google Fonts, OFL licence); add the font files here when needed for print
+- [`brand/logos`](brand/logos): vectorized logos (SVG for print, PNG for quick use) and originals
+- [`brand/fonts`](brand/fonts): Nunito and Nunito Sans (free Google Fonts, OFL licence); Nunito font files (400, 700, 800)
 
 **Colours:** Brand sky `#0E97DB` · Brand deep `#0A6FA6` · Cream `#F6F4EE` · Sage `#8CCBB0` · Ink `#25323F`
 **Rules:** never white text on brand sky; buttons and contact bars use brand deep.

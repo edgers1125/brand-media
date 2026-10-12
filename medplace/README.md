@@ -17,13 +17,13 @@ Publications, signage and print for MedPlace Medical Supplies & Pharma. Brand ru
 
 | Date | Piece | Location | Status | Preview |
 | --- | --- | --- | --- | --- |
-| | None yet | | | |
+| 2026-10-12 | [Letterhead template](print/2026-10-letterhead-template/print.md) | Brand level | Draft | <img src="print/2026-10-letterhead-template/header-first-page-2480x500.png" width="120"> |
 
 ## Brand kit
 
 - [`brand/guidelines`](brand/guidelines): brand guide and colour/type tokens from the design system
-- [`brand/logos`](brand/logos): add the original logo files here (SVG for print, PNG for quick use)
-- [`brand/fonts`](brand/fonts): Bricolage Grotesque and DM Sans (free Google Fonts, OFL licence); add the font files here when needed for print
+- [`brand/logos`](brand/logos): vectorized logo (SVG for print, PNG for quick use) and original
+- [`brand/fonts`](brand/fonts): Bricolage Grotesque and DM Sans (free Google Fonts, OFL licence); Bricolage Grotesque and DM Sans font files
 
 **Colours:** Orange `#F58220` · Teal `#17A589` · Warm white `#FFF9F0` · Sun `#FFE8CC` · Ink `#1F2A2E`
 **Rules:** never white text on orange (use dark ink); prices in deep orange `#A84A00`; SALE stickers always carry the word.
