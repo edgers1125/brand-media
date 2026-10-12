@@ -1,5 +1,7 @@
 # Emmanuelle Pharma & Medical Supplies
 
+Letterheads follow the repo format: [LETTERHEAD-SPEC.md](../LETTERHEAD-SPEC.md).
+
 Publications, signage and print for Emmanuelle Pharma & Medical Supplies. Brand rules live in the [Emmanuelle Design System](https://claude.ai/artifact/BZ3eubu2p5WSvJiqvA3wCV). Part of [Brand Media](../README.md).
 
 **Vibe:** relaxing and soothing. Calm sky blue and cream, soft shapes, gentle sentence-case copy, no emoji or loud caps.

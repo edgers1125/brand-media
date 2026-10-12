@@ -1,5 +1,7 @@
 # MedPlace Medical Supplies & Pharma
 
+Letterheads follow the repo format: [LETTERHEAD-SPEC.md](../LETTERHEAD-SPEC.md).
+
 Publications, signage and print for MedPlace Medical Supplies & Pharma. Brand rules live in the [MedPlace Design System](https://claude.ai/artifact/Bdmtw2JqfXUNjD4H9957jd). Part of [Brand Media](../README.md).
 
 **Vibe:** a budget-friendly brand people can relate to. Warm orange and teal, price-first, plain upbeat copy.

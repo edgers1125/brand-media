@@ -14,15 +14,7 @@ body{background:#888;font-family:"Poppins",sans-serif;display:flex;flex-directio
 .band{position:absolute;left:0;width:2480px}
 .tag{position:absolute;white-space:nowrap;font-weight:400;color:var(--forest);letter-spacing:.04em}
 
-/* First page header 2480 x 500 */
 #h1{height:500px}
-#h1 .logo{position:absolute;left:177px;top:84px;height:176px}
-#h1 .tag{left:auto;right:177px;top:84px;font-size:38px;line-height:52px;font-weight:700;color:var(--forest);letter-spacing:.02em}
-#h1 .addr{position:absolute;right:177px;top:144px;height:174px;display:flex;align-items:center;gap:32px}
-#h1 .addr .txt{font-size:40px;line-height:58px;font-weight:400;color:var(--navy);text-align:right;letter-spacing:.01em}
-#h1 .addr .txt b{font-weight:600;font-family:"Poppins";font-weight:700}
-#h1 .addr .rule{width:5px;height:140px;background:var(--green)}
-#h1 .pin{width:64px;height:64px;border-radius:50%;background:var(--navy);display:flex;align-items:center;justify-content:center;flex:none}
 
 /* Later pages header 2480 x 250 (slim band) */
 #h2{height:250px}
@@ -39,18 +31,14 @@ body{background:#888;font-family:"Poppins",sans-serif;display:flex;flex-directio
 </head>
 <body>
 
-<div class="piece" id="h1">
-  <div class="band" style="top:0;height:40px;background:var(--forest)"></div>
-  <div class="band" style="top:40px;height:6px;background:var(--green)"></div>
-  <img class="logo" src="assets/medsource-world.svg" alt="MedSource World">
-  <div class="tag">Sourcing the Future of Healthcare</div>
-  <div class="addr">
-    <div class="txt"><b>209 Riverside Drive</b><br>Provident Village<br>Marikina City, Philippines</div>
-    <div class="rule"></div>
-    <div class="pin"><svg width="34" height="34" viewBox="0 0 24 24"><path fill="#fff" d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg></div>
-  </div>
-  <div class="band" style="top:442px;height:6px;background:var(--green)"></div>
-  <div class="band" style="top:448px;height:20px;background:var(--navy)"></div>
+<div class="piece" id="h1"><!-- spec: letterhead-first-page-spec.jpg; zone A (177-1240, 360-430) and zone B (1300-2160, 215-430) stay blank -->
+  <div class="band" style="top:0;height:112px;background:var(--forest)"></div>
+  <div class="band" style="top:112px;height:8px;background:var(--green)"></div>
+  <img style="position:absolute;left:177px;top:140px;height:190px" src="assets/medsource-world.svg" alt="MedSource World">
+  <div style="position:absolute;right:320px;top:130px;height:75px;display:flex;align-items:center;font-size:44px;letter-spacing:.02em;white-space:nowrap"><span style="font-weight:700;color:var(--forest)">Sourcing the Future of Healthcare</span></div>
+  <div style="position:absolute;left:2217px;top:130px;width:6px;height:300px;background:var(--green)"></div>
+  <div class="band" style="top:440px;height:8px;background:var(--green)"></div>
+  <div class="band" style="top:448px;height:52px;background:var(--navy)"></div>
 </div>
 
 <div class="piece" id="h2">

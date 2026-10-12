@@ -12,7 +12,7 @@ Marked as the legal government letterhead template. Old letterhead used as basis
 
 Later pages header revamped Oct 13, 2026 to the slim 2480 × 250 px band (small logo plus tagline) to match the other brand letterheads.
 
-Revamped Oct 13, 2026 for system-filled letterheads: the lower right side of every header is blank and nothing sits under the logo. Content is held to the top of each header and footer.
+Revamped Oct 13, 2026 to the repo letterhead format: [LETTERHEAD-SPEC.md](../../../LETTERHEAD-SPEC.md). First page header keeps Zone A (branch tag) and Zone B (phone, email, address) blank because the system prints them, the logo ends above y 350, and only the optional tagline sits at the top right.
 
 ## Files
 

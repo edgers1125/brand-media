@@ -1,5 +1,7 @@
 # Brand Media
 
+Letterhead format for every brand: see [LETTERHEAD-SPEC.md](LETTERHEAD-SPEC.md).
+
 Every publication for EJ's brands in one place: social posts, signage and print, plus each brand's logos, fonts and guidelines. Images here are public so they can be scheduled and shared.
 
 | Brand | Facebook page | Design system | Folder |

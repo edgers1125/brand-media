@@ -1,5 +1,7 @@
 # MedSource Media
 
+Letterheads follow the repo format: [LETTERHEAD-SPEC.md](../LETTERHEAD-SPEC.md).
+
 Every MedSource publication in one place: social posts, signage and print, plus the logos. Images here are public so Metricool can schedule them. Brand rules live in the [MedSource Design System](https://claude.ai/artifact/LojEEUnecRaNcobaZvbXQ8). Part of [Brand Media](../README.md). MedSource is the only brand scheduled through Metricool.
 
 ## Social posts

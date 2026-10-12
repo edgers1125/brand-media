@@ -13,16 +13,7 @@ body{background:#888;font-family:"Poppins",sans-serif;display:flex;flex-directio
 .piece{position:relative;width:2480px;background:var(--white);overflow:hidden}
 .band{position:absolute;left:0;width:2480px}
 
-/* First page header 2480 x 500 */
 #h1{height:500px}
-#h1 .logo{position:absolute;left:177px;top:84px;height:200px}
-#h1 .addr{position:absolute;right:177px;top:84px;height:200px;display:flex;align-items:center;gap:32px}
-#h1 .addr .txt{font-size:38px;line-height:54px;font-weight:400;color:var(--navy);text-align:right;letter-spacing:.01em}
-#h1 .addr .txt b{font-weight:700}
-#h1 .addr .txt b.tag{font-size:46px;line-height:64px;letter-spacing:.02em}
-#h1 .addr .txt b.tag span{color:var(--greenstrong)}
-#h1 .addr .rule{width:5px;height:176px;background:var(--green)}
-#h1 .pin{width:64px;height:64px;border-radius:50%;background:var(--navy);display:flex;align-items:center;justify-content:center;flex:none}
 
 /* Later pages header 2480 x 250 (slim band) */
 #h2{height:250px}
@@ -41,17 +32,14 @@ body{background:#888;font-family:"Poppins",sans-serif;display:flex;flex-directio
 </head>
 <body>
 
-<div class="piece" id="h1">
-  <div class="band" style="top:0;height:40px;background:var(--forest)"></div>
-  <div class="band" style="top:40px;height:6px;background:var(--green)"></div>
-  <img class="logo" src="assets/medsource-landscape.svg" alt="MedSource Medical Supplies and Equipment">
-  <div class="addr">
-    <div class="txt"><b class="tag">Certified #Med<span>Mura</span></b><br>0906 299 3555<br>sales.quotations@medsource.com.ph</div>
-    <div class="rule"></div>
-    <div class="pin"><svg width="34" height="34" viewBox="0 0 24 24"><path fill="#fff" d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.6a1 1 0 0 1-.25 1z"/></svg></div>
-  </div>
-  <div class="band" style="top:442px;height:6px;background:var(--green)"></div>
-  <div class="band" style="top:448px;height:20px;background:var(--navy)"></div>
+<div class="piece" id="h1"><!-- spec: letterhead-first-page-spec.jpg; zone A (177-1240, 360-430) and zone B (1300-2160, 215-430) stay blank -->
+  <div class="band" style="top:0;height:112px;background:var(--forest)"></div>
+  <div class="band" style="top:112px;height:8px;background:var(--green)"></div>
+  <img style="position:absolute;left:177px;top:140px;height:190px" src="assets/medsource-landscape.svg" alt="MedSource Medical Supplies and Equipment">
+  <div style="position:absolute;right:320px;top:130px;height:75px;display:flex;align-items:center;font-size:44px;letter-spacing:.02em;white-space:nowrap"><b style="font-weight:700;color:var(--navy)">Certified #Med<span style="color:var(--greenstrong)">Mura</span></b></div>
+  <div style="position:absolute;left:2217px;top:130px;width:6px;height:300px;background:var(--green)"></div>
+  <div class="band" style="top:440px;height:8px;background:var(--green)"></div>
+  <div class="band" style="top:448px;height:52px;background:var(--navy)"></div>
 </div>
 
 <div class="piece" id="h2">
