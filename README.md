@@ -6,9 +6,9 @@ Every MedSource publication in one place: social posts, signage and print, plus 
 
 | Date | Publication | Branch | Status | Preview |
 | --- | --- | --- | --- | --- |
-| Oct 13, 2026 | [Medicines](posts/2026-10-13-medicines/post.md) | Sta. Lucia Mall | Scheduled | <img src="posts/2026-10-13-medicines/feed-1080x1350.png" width="120"> |
-| Oct 11, 2026 | [Devices & Equipment](posts/2026-10-11-devices-equipment/post.md) | Sta. Lucia Mall | Scheduled | <img src="posts/2026-10-11-devices-equipment/feed-1080x1350.png" width="120"> |
-| Oct 9, 2026 | [Wholesaler. Retailer. Importer.](posts/2026-10-09-wholesaler-retailer-importer/post.md) | Sta. Lucia Mall | Scheduled | <img src="posts/2026-10-09-wholesaler-retailer-importer/feed-1080x1350.png" width="120"> |
+| Oct 13, 2026 | [Medicines](posts/2026-10-13-medicines/post.md) | Digital sales | Scheduled | <img src="posts/2026-10-13-medicines/feed-1080x1350.png" width="120"> |
+| Oct 11, 2026 | [Devices & Equipment](posts/2026-10-11-devices-equipment/post.md) | Digital sales | Scheduled | <img src="posts/2026-10-11-devices-equipment/feed-1080x1350.png" width="120"> |
+| Oct 9, 2026 | [Wholesaler. Retailer. Importer.](posts/2026-10-09-wholesaler-retailer-importer/post.md) | Digital sales | Scheduled | <img src="posts/2026-10-09-wholesaler-retailer-importer/feed-1080x1350.png" width="120"> |
 | Oct 8, 2026 | [Now Accepting DSWD Guarantee Letters](posts/2026-10-08-dswd-guarantee-letters/post.md) | Sta. Lucia Mall | Scheduled | <img src="posts/2026-10-08-dswd-guarantee-letters/feed-1080x1350.png" width="120"> |
 
 ## Signage & print
