@@ -23,3 +23,5 @@ Government level letterhead for Emmanuelle Pharma & Medical Supplies Distributio
 <img src="emmanuelle-government-letterhead-header-first-page-2480x500.png" width="640">
 <img src="emmanuelle-government-letterhead-header-later-pages-2480x250.png" width="640">
 <img src="emmanuelle-government-letterhead-footer-2480x250.png" width="640">
+
+First page header keeps the original approved rounded mist panel look, with only the Wholesale and Retail tagline (no address or contact, the system prints those).

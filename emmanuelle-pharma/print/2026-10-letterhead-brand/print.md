@@ -10,7 +10,7 @@
 
 Brand level letterhead. Uses the same logo as the [government letterhead](../2026-10-letterhead-government/print.md). Soft rounded mist panel, sage line, Wholesale and Retail, page line and #masmurakayemman in the footer. Contact: 0917-512-5050, sales.emedsupplyph@gmail.com.
 
-Revamped Oct 13, 2026 to the repo letterhead format: [LETTERHEAD-SPEC.md](../../../LETTERHEAD-SPEC.md). First page header keeps Zone A (branch tag) and Zone B (phone, email, address) blank because the system prints them, the logo ends above y 350, and only the optional tagline sits at the top right.
+First page header keeps the original approved rounded mist panel look, with only the Wholesale and Retail tagline (no address or contact, the system prints those). Fitted to the repo letterhead format: [LETTERHEAD-SPEC.md](../../../LETTERHEAD-SPEC.md). First page header keeps Zone A (branch tag) and Zone B (phone, email, address) blank because the system prints them, the logo ends above y 350, and only the optional tagline sits at the top right.
 
 ## Files
 
