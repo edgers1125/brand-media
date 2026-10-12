@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <title>MedSource World letterhead</title>
 <style>
-@font-face{font-family:"Poppins";font-weight:400;src:url("../../brand/fonts/poppins/Poppins-Regular.ttf")}
-@font-face{font-family:"Poppins";font-weight:500;src:url("../../brand/fonts/poppins/Poppins-Medium.ttf")}
-@font-face{font-family:"Poppins";font-weight:700;src:url("../../brand/fonts/poppins/Poppins-Bold.ttf")}
+@font-face{font-family:"Poppins";font-weight:400;src:url("assets/Poppins-Regular.ttf")}
+@font-face{font-family:"Poppins";font-weight:500;src:url("assets/Poppins-Medium.ttf")}
+@font-face{font-family:"Poppins";font-weight:700;src:url("assets/Poppins-Bold.ttf")}
 :root{--forest:#445C44;--green:#7AB537;--navy:#033F75;--slate:#5A6470;--white:#FFFFFF}
 *{box-sizing:border-box;margin:0;padding:0}
 body{background:#888;font-family:"Poppins",sans-serif;display:flex;flex-direction:column;gap:40px;padding:40px;width:2560px}
@@ -38,12 +38,16 @@ body{background:#888;font-family:"Poppins",sans-serif;display:flex;flex-directio
 </head>
 <body>
 
-<div class="piece" id="h1"><!-- spec: letterhead-first-page-spec.jpg; original approved look; zone A (177-1240, 360-430) and zone B (1300-2160, 215-430) stay blank; logo ends above y 350 -->
+<div class="piece" id="h1">
   <div class="band" style="top:0;height:40px;background:var(--forest)"></div>
   <div class="band" style="top:40px;height:6px;background:var(--green)"></div>
-  <img style="position:absolute;left:177px;top:128px;height:176px" src="../../brand/logos/medsource-world/medsource-world.svg" alt="MedSource World">
-  <div style="position:absolute;right:320px;top:130px;height:75px;display:flex;align-items:center;font-weight:400;font-size:36px;letter-spacing:.04em;color:var(--forest);white-space:nowrap">Sourcing the Future of Healthcare</div>
-  <div style="position:absolute;left:2217px;top:130px;width:5px;height:176px;background:var(--green)"></div>
+  <img class="logo" src="assets/medsource-world.svg" alt="MedSource World">
+  <div class="tag">Sourcing the Future of Healthcare</div>
+  <div class="addr">
+    <div class="txt"><b>209 Riverside Drive</b><br>Provident Village<br>Marikina City, Philippines</div>
+    <div class="rule"></div>
+    <div class="pin"><svg width="34" height="34" viewBox="0 0 24 24"><path fill="#fff" d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg></div>
+  </div>
   <div class="band" style="top:442px;height:6px;background:var(--green)"></div>
   <div class="band" style="top:448px;height:20px;background:var(--navy)"></div>
 </div>
@@ -51,7 +55,7 @@ body{background:#888;font-family:"Poppins",sans-serif;display:flex;flex-directio
 <div class="piece" id="h2">
   <div class="band" style="top:0;height:30px;background:var(--forest)"></div>
   <div class="band" style="top:30px;height:5px;background:var(--green)"></div>
-  <img class="logo" src="../../brand/logos/medsource-world/medsource-world.svg" alt="MedSource World">
+  <img class="logo" src="assets/medsource-world.svg" alt="MedSource World">
   <div class="tag">Sourcing the Future of Healthcare</div>
   <div class="band" style="top:296px;height:5px;background:var(--green)"></div>
   <div class="band" style="top:301px;height:14px;background:var(--navy)"></div>
