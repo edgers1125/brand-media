@@ -1,45 +1,26 @@
-# MedSource Media
+# Brand Media
 
-Every MedSource publication in one place: social posts, signage and print, plus the logos. Images here are public so Metricool can schedule them. Brand rules live in the [MedSource Design System](https://claude.ai/artifact/LojEEUnecRaNcobaZvbXQ8).
+Every publication for EJ's brands in one place: social posts, signage and print, plus each brand's logos, fonts and guidelines. Images here are public so they can be scheduled and shared.
 
-## Social posts
-
-| Date | Publication | Branch | Status | Preview |
-| --- | --- | --- | --- | --- |
-| Oct 13, 2026 | [Medicines](posts/2026-10-13-medicines/post.md) | Digital sales | Scheduled | <img src="posts/2026-10-13-medicines/feed-1080x1350.png" width="120"> |
-| Oct 11, 2026 | [Devices & Equipment](posts/2026-10-11-devices-equipment/post.md) | Digital sales | Scheduled | <img src="posts/2026-10-11-devices-equipment/feed-1080x1350.png" width="120"> |
-| Oct 9, 2026 | [Wholesaler. Retailer. Importer.](posts/2026-10-09-wholesaler-retailer-importer/post.md) | Digital sales | Scheduled | <img src="posts/2026-10-09-wholesaler-retailer-importer/feed-1080x1350.png" width="120"> |
-| Oct 8, 2026 | [Now Accepting DSWD Guarantee Letters](posts/2026-10-08-dswd-guarantee-letters/post.md) | Sta. Lucia Mall | Scheduled | <img src="posts/2026-10-08-dswd-guarantee-letters/feed-1080x1350.png" width="120"> |
-
-## Signage & print
-
-| Date | Piece | Location | Status | Preview |
-| --- | --- | --- | --- | --- |
-| Oct 10, 2026 | [DSWD Tarpaulin 2 x 5 ft](print/2026-10-dswd-tarpaulin/print.md) | Sta. Lucia Mall | Draft | <img src="print/2026-10-dswd-tarpaulin/mockups/preview-1152x2880.png" width="60"> |
-| Oct 10, 2026 | [MedSource Letterhead Template](print/2026-10-medsource-letterhead-template/print.md) | Sta. Lucia Mall | Draft | <img src="print/2026-10-medsource-letterhead-template/header-first-page-2480x500.png" width="120"> |
-| Oct 10, 2026 | [Legal Government Letterhead Template](print/2026-10-legal-letterhead-template/print.md) | MedSource World, Marikina City | Draft | <img src="print/2026-10-legal-letterhead-template/header-first-page-2480x500.png" width="120"> |
-| Oct 2026 | [Warehouse Window Sticker](print/2026-10-warehouse-window-sticker/print.md) | Warehouse glass wall | Approved | <img src="print/2026-10-warehouse-window-sticker/mockups/style-b-street.png" width="120"> |
-
-## Brand kit
-
-Everything needed for flyers, tarps, documents and posts. Every logo comes as SVG (vector, send this to printers) and PNG (2000px wide, for Canva, Word and quick use).
-
-| MedSource landscape | MedSource portrait | MedSource icon | MedSource World | World icon |
-| --- | --- | --- | --- | --- |
-| <img src="brand/logos/medsource/medsource-landscape.svg" width="170"> | <img src="brand/logos/medsource/medsource-portrait.svg" width="90"> | <img src="brand/logos/medsource/medsource-icon.svg" width="60"> | <img src="brand/logos/medsource-world/medsource-world.svg" width="170"> | <img src="brand/logos/medsource-world/world-icon.svg" width="60"> |
-
-- [`brand/logos/medsource`](brand/logos/medsource): official MedSource logos (landscape, portrait, icon), full colour and white
-- [`brand/logos/medsource-world`](brand/logos/medsource-world): official MedSource World logo and globe icon, full colour and white
-- [`brand/logos/signage`](brand/logos/signage): rebalanced logos for big-format signage only (larger wordmark), never for documents or posts
-- [`brand/fonts/poppins`](brand/fonts/poppins): Poppins, the only brand font (Light to Black, with italics; free licence in OFL.txt)
-- [`brand/guidelines`](brand/guidelines): brand guide, publication rules, decisions log and colour/type tokens
-
-**Colours:** Forest `#445C44` · Navy `#033F75` · Brand green `#7AB537` · Navy deep `#022A4F` · White `#FFFFFF`
-**Taglines:** Certified #Med**Mura** · Trust us, we've got it Medic**ALL**
-**Rules:** white logo on forest, navy or photos; full colour on white only. No em dashes in any copy.
+| Brand | Facebook page | Design system | Folder |
+| --- | --- | --- | --- |
+| MedSource (and MedSource World) | MedSource Medical Supplies | [MedSource Design System](https://claude.ai/artifact/LojEEUnecRaNcobaZvbXQ8) | [`medsource`](medsource/README.md) |
+| Emmanuelle Pharma & Medical Supplies | [facebook.com/emedsupplies](https://www.facebook.com/emedsupplies/) | [Emmanuelle Design System](https://claude.ai/artifact/BZ3eubu2p5WSvJiqvA3wCV) | [`emmanuelle-pharma`](emmanuelle-pharma/README.md) |
+| MedPlace Medical Supplies & Pharma | [facebook.com/profile.php?id=100094972893534](https://www.facebook.com/profile.php?id=100094972893534) | [MedPlace Design System](https://claude.ai/artifact/Bdmtw2JqfXUNjD4H9957jd) | [`medplace`](medplace/README.md) |
 
 ## Folder guide
 
-- `posts/YYYY-MM-DD-slug/`: feed (1080×1350) and story (1080×1920) PNGs plus `post.md` with captions and schedule
-- `print/YYYY-MM-slug/`: print-ready PDFs at actual size, mockups and `print.md`
-- `brand/`: logos, fonts and guidelines
+Every brand folder has the same shape:
+
+- `<brand>/brand/`: logos, fonts and guidelines for that brand only
+- `<brand>/posts/YYYY-MM-DD-slug/`: feed (1080×1350) and story (1080×1920) PNGs plus `post.md` with captions and schedule
+- `<brand>/print/YYYY-MM-slug/`: print-ready PDFs at actual size, mockups and `print.md`
+- `<brand>/README.md`: the brand's index of posts and print, newest first, plus its brand kit
+
+## Workflow
+
+The same steps apply to every brand: build from the brand's design system, make a feed image and a story image, write the Facebook and Instagram captions, get EJ's approval, then file everything in that brand's folder and add a row to its README.
+
+Scheduling differs. Only MedSource schedules through Metricool. Emmanuelle Pharma and MedPlace do not use Metricool.
+
+Keep every brand's work in its own folder. Never mix one brand's logos, colours or captions into another's.
