@@ -14,7 +14,14 @@ Not scheduled: a cover is uploaded by hand on the Facebook page, so there is no 
 
 ## Device fit
 
-Facebook shows one cover at 820 × 312 on desktop and 640 × 360 on phones, which trims the sides. The file is 1640 × 624 (2x desktop). Everything essential (logo, badges, headline, contacts, all three photos) sits inside the phone-safe centre, x 290 to 1350, so nothing is clipped on phones. The outer 270 px each side is plain band colour. The bottom-left corner stays clear of the profile photo on desktop. See [`device-preview.png`](device-preview.png).
+Facebook shows one cover at 820 × 312 on desktop and 640 × 360 on phones, which trims the sides, and the page profile photo covers the bottom-left corner. The file is 1640 × 624 (2x desktop). Phone-first rules used:
+
+- Everything essential sits in x 300 to 1340 and y 30 to 595, inside the phone-safe centre.
+- The bottom-left corner (x under 500, y over 390) is left empty for the profile photo, so the phone number and email start at x 520.
+- Type is kept large (phone number 56 px, headline 88 px) because the cover shrinks to about a third of its size on phones.
+- All three photos sit in a slim slash column inside the safe zone.
+
+See [`device-preview.png`](device-preview.png) for the desktop and phone crops with the profile photo overlay.
 
 ## Image
 

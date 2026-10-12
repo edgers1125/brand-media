@@ -5,35 +5,38 @@
 @font-face{font-family:Poppins;font-weight:700;src:url(../../../brand/fonts/poppins/Poppins-Bold.ttf)}
 *{margin:0;padding:0;box-sizing:border-box}
 body{width:1640px;height:624px;background:#fff;font-family:Poppins,sans-serif;position:relative;overflow:hidden}
-/* safe zone for phones: x 265 to 1375. Content lives in x 290 to 1350 */
-.band{position:absolute;left:0;top:200px;width:1640px;height:240px;background:#445C44}
-.stripe{position:absolute;left:0;top:440px;width:1640px;height:8px;background:#7AB537}
-.foot{position:absolute;left:0;top:448px;width:1640px;height:176px;background:#033F75}
-.logo{position:absolute;left:290px;top:65px;height:70px}
-.sep{position:absolute;left:608px;top:40px;width:2px;height:120px;background:#D9DED6}
-.hero{position:absolute;left:290px;top:210px;color:#fff;width:720px}
-.l1{font-size:32px;line-height:38px;font-weight:400}
-.l2{display:flex;align-items:center;font-size:96px;line-height:104px;font-weight:700;letter-spacing:-0.02em}
-.pill{background:#7AB537;border-radius:9999px;padding:0 30px 4px;margin-left:2px;line-height:100px}
-.l3{font-size:30px;line-height:38px;font-weight:500;margin-top:2px}
-.row{position:absolute;left:290px;display:flex;align-items:center;color:#fff}
-.ic{width:48px;height:48px;border-radius:50%;background:#7AB537;display:flex;align-items:center;justify-content:center;margin-right:18px}
-.r1{top:476px;font-size:50px;font-weight:700;letter-spacing:.01em}
-.r2{top:544px;font-size:29px;font-weight:500}
-.lk{position:absolute;top:40px;display:flex;flex-direction:column}
-.lkA{left:630px;width:176px}
-.lkA img{display:block;width:176px}
+/* Phone-first safe zones (1640 x 624 file):
+   content x 300-1340, y 30-595. Keep bottom-left corner (x<500, y>390) empty: profile photo covers it on phones. */
+.band{position:absolute;left:0;top:172px;width:1640px;height:200px;background:#445C44}
+.stripe{position:absolute;left:0;top:372px;width:1640px;height:8px;background:#7AB537}
+.foot{position:absolute;left:0;top:380px;width:1640px;height:244px;background:#033F75}
+.logo{position:absolute;left:300px;top:57px;height:60px}
+.sep{position:absolute;left:580px;top:34px;width:2px;height:104px;background:#D9DED6}
+.hero{position:absolute;left:300px;top:190px;color:#fff;width:720px}
+.l1{font-size:28px;line-height:32px;font-weight:400}
+.l2{display:flex;align-items:center;font-size:88px;line-height:94px;font-weight:700;letter-spacing:-0.02em}
+.pill{background:#7AB537;border-radius:9999px;padding:0 28px 3px;margin-left:2px;line-height:90px}
+.l3{font-size:26px;line-height:32px;font-weight:500;margin-top:0;white-space:nowrap}
+.row{position:absolute;left:520px;display:flex;align-items:center;color:#fff}
+.ic{border-radius:50%;background:#7AB537;display:flex;align-items:center;justify-content:center}
+.r1{top:420px;font-size:56px;font-weight:700;letter-spacing:.01em}
+.r1 .ic{width:56px;height:56px;margin-right:16px}
+.r2{top:508px;font-size:23px;font-weight:500}
+.r2 .ic{width:40px;height:40px;margin-right:12px}
+.lk{position:absolute;top:28px;display:flex;flex-direction:column}
+.lkA{left:604px;width:200px}
+.lkA img{display:block;width:200px}
 .lkA img.yk{margin-top:4px}
-.pill2{margin-top:8px;height:24px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:12px;letter-spacing:.13em;text-transform:uppercase;color:#033F75;background:#FFB700;white-space:nowrap}
-.lkB{left:834px;width:164px}
-.lkB .top{display:flex;align-items:center;height:80px}
-.lkB .top img{height:76px;width:auto;display:block;margin-right:8px}
+.pill2{margin-top:8px;height:28px;border-radius:14px;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:15px;letter-spacing:.06em;text-transform:uppercase;color:#033F75;background:#FFB700;white-space:nowrap}
+.lkB{left:830px;width:184px}
+.lkB .top{display:flex;align-items:center;height:90px}
+.lkB .top img{height:86px;width:auto;display:block;margin-right:8px}
 .lkB .txt{color:#26225F;font-weight:700;line-height:1}
-.lkB .txt b{display:block;font-size:17px;letter-spacing:.06em;margin-bottom:4px}
-.lkB .txt span{display:block;font-size:24px;letter-spacing:-.01em}
+.lkB .txt b{display:block;font-size:19px;letter-spacing:.06em;margin-bottom:4px}
+.lkB .txt span{display:block;font-size:26px;letter-spacing:-.01em}
 .lkB .pill2{background:#F2A800;color:#26225F}
-.panel{position:absolute;left:1020px;top:0;width:330px;height:624px;clip-path:polygon(44px 0,100% 0,100% 100%,0 100%);background:#fff}
-.slot{position:absolute;left:0;width:330px;height:204px;background-size:cover;background-repeat:no-repeat;background-color:#E9EFE6}
+.panel{position:absolute;left:1064px;top:0;width:276px;height:624px;clip-path:polygon(36px 0,100% 0,100% 100%,0 100%);background:#fff}
+.slot{position:absolute;left:0;width:276px;height:204px;background-size:cover;background-repeat:no-repeat;background-color:#E9EFE6}
 .s1{top:0;background-image:url(photo1.webp);background-position:50% 60%}
 .s2{top:210px;background-image:url(photo3.webp);background-position:50% 60%}
 .s3{top:420px;background-image:url(photo2.webp);background-position:50% 15%}
@@ -45,8 +48,8 @@ body{width:1640px;height:624px;background:#fff;font-family:Poppins,sans-serif;po
 <div class="lk lkB"><div class="top"><img src="aics-icon.png"><div class="txt"><b>DSWD</b><span>AICS GL</span></div></div><div class="pill2">Accredited</div></div>
 <div class="hero"><div class="l1">The certified</div>
 <div class="l2"><span>#Med</span><span class="pill">Mura</span></div>
-<div class="l3">Medical Source<br>is now in the Philippines</div></div>
-<div class="row r1"><span class="ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="#022A4F"><path d="M6.6 10.8a15 15 0 006.6 6.6l2.2-2.2a1 1 0 011-.25 11.4 11.4 0 003.6.57 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.45.57 3.57a1 1 0 01-.25 1z"/></svg></span>0906 299 3555</div>
-<div class="row r2"><span class="ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#022A4F" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3.5 7l8.5 6 8.5-6"/></svg></span>sales.quotations@medsource.com.ph</div>
+<div class="l3">Medical Source is now in the Philippines</div></div>
+<div class="row r1"><span class="ic"><svg width="30" height="30" viewBox="0 0 24 24" fill="#022A4F"><path d="M6.6 10.8a15 15 0 006.6 6.6l2.2-2.2a1 1 0 011-.25 11.4 11.4 0 003.6.57 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.45.57 3.57a1 1 0 01-.25 1z"/></svg></span>0906 299 3555</div>
+<div class="row r2"><span class="ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#022A4F" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3.5 7l8.5 6 8.5-6"/></svg></span>sales.quotations@medsource.com.ph</div>
 <div class="panel"><div class="slot s1"></div><div class="slot s2"></div><div class="slot s3"></div></div>
 </body></html>
