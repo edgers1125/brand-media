@@ -10,7 +10,7 @@
 
 Brand letterhead. Straight orange and teal bands, sticker-style Your #1 provider pill, dark ink on orange. Contact: 0995-156-0801, davemedplace@gmail.com. No address yet.
 
-Revamped Oct 13, 2026 to the repo letterhead format: [LETTERHEAD-SPEC.md](../../../LETTERHEAD-SPEC.md). First page header keeps Zone A (branch tag) and Zone B (phone, email, address) blank because the system prints them, the logo ends above y 350, and only the optional tagline sits at the top right.
+First page header keeps the original approved look, with only the tagline (no address or contact, the system prints those), logo ending above y 350. Fitted to the repo letterhead format: [LETTERHEAD-SPEC.md](../../../LETTERHEAD-SPEC.md).
 
 ## Files
 
