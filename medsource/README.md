@@ -20,7 +20,7 @@ Every MedSource publication in one place: social posts, signage and print, plus 
 | --- | --- | --- | --- | --- |
 | Oct 10, 2026 | [DSWD Tarpaulin 2 x 5 ft](print/2026-10-dswd-tarpaulin/print.md) | Sta. Lucia Mall | Draft | <img src="print/2026-10-dswd-tarpaulin/mockups/preview-1152x2880.png" width="60"> |
 | Oct 13, 2026 | [MedSource Digital Sales Letterhead Template](print/2026-10-medsource-letterhead-template/print.md) | Digital sales | Draft | <img src="print/2026-10-medsource-letterhead-template/medsource-digital-sales-letterhead-header-first-page-2480x500.png" width="120"> |
-| Oct 13, 2026 | [Legal Government Letterhead Template](print/2026-10-legal-letterhead-template/print.md) | MedSource World, Marikina City | Draft | <img src="print/2026-10-legal-letterhead-template/header-first-page-2480x500.png" width="120"> |
+| Oct 10, 2026 | [Legal Government Letterhead Template](print/2026-10-legal-letterhead-template/print.md) | MedSource World, Marikina City | Draft | <img src="print/2026-10-legal-letterhead-template/header-first-page-2480x500.png" width="120"> |
 | Oct 2026 | [Warehouse Window Sticker](print/2026-10-warehouse-window-sticker/print.md) | Warehouse glass wall | Approved | <img src="print/2026-10-warehouse-window-sticker/mockups/style-b-street.png" width="120"> |
 
 ## Brand kit

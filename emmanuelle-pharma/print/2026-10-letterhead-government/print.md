@@ -10,8 +10,6 @@
 
 Government level letterhead for Emmanuelle Pharma & Medical Supplies Distribution. Same soft look as the [brand letterhead](../2026-10-letterhead-brand/print.md), with the business address (209 Riverside Drive, Provident Village, Marikina City) and no contact person or phone.
 
-Revamped Oct 13, 2026 to the repo letterhead format: [LETTERHEAD-SPEC.md](../../../LETTERHEAD-SPEC.md). First page header keeps Zone A (branch tag) and Zone B (phone, email, address) blank because the system prints them, the logo ends above y 350, and only the optional tagline sits at the top right.
-
 ## Files
 
 | Piece | Size | File |
