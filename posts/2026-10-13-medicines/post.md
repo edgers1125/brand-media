@@ -10,7 +10,7 @@
 
 Medicines: maintenance, vitamins and everyday essentials. Part of the October 2026 publication plan (week 1, no promos).
 
-Revised Oct 12: branch name and address removed, contact changed to the digital sales number 0906 299 3555. Images are re-rendered; the Metricool posts still need the new images.
+Revised Oct 12: branch name and address removed, contact changed to the digital sales number 0906 299 3555. Images re-rendered and swapped on the three Metricool posts the same day.
 
 ## Schedule
 
