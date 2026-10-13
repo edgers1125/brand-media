@@ -19,7 +19,7 @@ body{background:#888;font-family:"Nunito",sans-serif;display:flex;flex-direction
 .name{left:0;display:flex}
 .wm{display:inline-flex}
 .w{font-weight:700;letter-spacing:-.01em}
-.by{right:0;font-weight:500;color:var(--grey)}
+.by{font-weight:500;color:var(--grey)}
 .by b{font-weight:700;color:var(--navy)}
 .desc{left:0;font-weight:500;color:var(--grey);text-transform:uppercase;letter-spacing:.06em}
 /* tagline: Nunito SemiBold grey with a short green rule */
@@ -32,8 +32,8 @@ body{background:#888;font-family:"Nunito",sans-serif;display:flex;flex-direction
 <div class="piece" id="h1" style="height:500px">
   <div class="bar" style="top:0;height:120px"></div>
   <div class="acc" style="top:108px;height:12px"></div>
-  <div class="lock" id="lock1" style="top:120px;height:230px" data-gap="36" data-s="122">
-    <img src="assets/healthhub-mark.png" style="height:200px" alt="HealthHub mark">
+  <div class="lock" id="lock1" style="top:120px;height:230px" data-s="100">
+    <img src="assets/healthhub-mark.png" style="height:170px" alt="HealthHub mark">
     <div class="txt">
       <div class="name"><span class="wm"><span class="w" style="color:var(--navy)">Health</span><span class="w" style="color:var(--green)">Hub</span></span></div>
       <div class="by">by <b>MedSource</b></div>
@@ -50,7 +50,7 @@ body{background:#888;font-family:"Nunito",sans-serif;display:flex;flex-direction
 <div class="piece" id="h2" style="height:250px">
   <div class="bar" style="top:0;height:56px"></div>
   <div class="acc" style="top:48px;height:8px"></div>
-  <div class="lock" id="lock2" style="top:56px;height:162px" data-gap="20" data-s="68">
+  <div class="lock" id="lock2" style="top:56px;height:162px" data-s="78">
     <img src="assets/healthhub-mark.png" style="height:112px" alt="HealthHub mark">
     <div class="txt">
       <div class="name"><span class="wm"><span class="w" style="color:var(--navy)">Health</span><span class="w" style="color:var(--green)">Hub</span></span></div>
@@ -67,7 +67,7 @@ body{background:#888;font-family:"Nunito",sans-serif;display:flex;flex-direction
 <div class="piece" id="f" style="height:250px">
   <div class="bar" style="top:0;height:24px"></div>
   <div class="acc" style="top:24px;height:8px"></div>
-  <div class="lock" id="lock3" style="top:32px;height:186px" data-gap="0" data-s="80">
+  <div class="lock" id="lock3" style="top:32px;height:186px" data-s="80">
     <div class="txt">
       <div class="name"><span class="wm"><span class="w" style="color:var(--navy)">Health</span><span class="w" style="color:var(--green)">Hub</span></span></div>
       <div class="by">by <b>MedSource</b></div>
@@ -80,22 +80,25 @@ body{background:#888;font-family:"Nunito",sans-serif;display:flex;flex-direction
 </div>
 
 <script>
-// Poppins cap height .703em, line-height 1 puts cap top at .147em. X = wordmark cap height.
-// Lines: wordmark; "by MedSource" at 30% size right-aligned under the wordmark; descriptor tracked +6%, set to the exact wordmark width.
+// Inline lockup. X = wordmark cap height (Poppins cap .703em; line-height 1 puts cap top at .147em, baseline at .85em).
+// Rows: [HealthHub  by MedSource] sharing one baseline, then the descriptor (tracked +6%) set to the full row width.
+// Gaps are measured in X: mark to text .45X, wordmark to "by" .24 s, row to descriptor .55X. Text block is centred on the cross.
 function fit(lock){
   const txt=lock.querySelector('.txt'),name=txt.querySelector('.name'),by=txt.querySelector('.by'),desc=txt.querySelector('.desc'),img=lock.querySelector('img');
-  const s=+lock.dataset.s, gap=+lock.dataset.gap, CAP=.703, TOP=.147;
+  const s=+lock.dataset.s, CAP=.703, TOP=.147, BASE=.85, X=CAP*s;
   name.style.fontSize=s+'px'; name.querySelectorAll('.w').forEach(e=>e.style.fontSize=s+'px');
-  const W=name.getBoundingClientRect().width, X=CAP*s;
-  const b=s*.30; by.style.fontSize=b+'px';
-  desc.style.fontSize='20px'; const dw=desc.getBoundingClientRect().width; const inset=.049*s, d=20*(W-0.65*inset)/dw; desc.style.fontSize=d+'px'; desc.style.left=inset+'px'; // optical: descriptor D aligns with the H stem, right edge with MedSource
-  const y0=0;                       // wordmark cap top
-  const base0=y0+X;                 // wordmark baseline
-  const byCap=base0+.20*X, byBase=byCap+CAP*b;
-  const dCap=byBase+.27*X, dBase=dCap+CAP*d;
-  name.style.top=(y0-TOP*s)+'px'; by.style.top=(byCap-TOP*b)+'px'; desc.style.top=(dCap-TOP*d)+'px';
-  txt.style.width=W+'px'; txt.style.height=dBase+'px';
-  if(img) txt.style.marginLeft=gap+'px';
+  const W=name.getBoundingClientRect().width;
+  const b=s*.36; by.style.fontSize=b+'px';
+  const byLeft=W+.24*s; by.style.left=byLeft+'px';
+  const rowW=byLeft+by.getBoundingClientRect().width;
+  const base0=X;                                  // baseline y (cap top at 0)
+  name.style.top=(-TOP*s)+'px'; name.style.left='0px';
+  by.style.top=(base0-BASE*b)+'px';
+  desc.style.fontSize='20px'; const dw=desc.getBoundingClientRect().width;
+  const inset=.049*s, d=20*(rowW-inset-(+lock.dataset.r||0)*s)/dw; desc.style.fontSize=d+'px'; desc.style.left=inset+'px';
+  const dCap=base0+.55*X; desc.style.top=(dCap-TOP*d)+'px';
+  txt.style.width=rowW+'px'; txt.style.height=(dCap+CAP*d)+'px';
+  if(img) txt.style.marginLeft=(.45*X)+'px';
 }
 document.fonts.ready.then(()=>{document.querySelectorAll('.lock').forEach(fit);document.body.dataset.ready='1'});
 </script>
