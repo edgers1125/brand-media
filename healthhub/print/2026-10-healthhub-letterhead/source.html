@@ -12,7 +12,8 @@ body{background:#888;font-family:"Quicksand",sans-serif;display:flex;flex-direct
 .abs{position:absolute}
 #h1{height:500px}#h2{height:250px}#f{height:250px}
 .topbar{left:0;top:0;width:2480px;background:linear-gradient(90deg,var(--blue-l) 0%,var(--blue-d) 100%)}
-.botbar{left:0;width:2480px;background:linear-gradient(90deg,var(--green-l) 0%,var(--green-d) 100%)}
+.botbar{left:0;width:2480px;background:linear-gradient(90deg,var(--blue-l) 0%,var(--blue-d) 100%)}
+.acc{position:absolute;left:0;width:2480px;background:var(--green)}
 .lock{position:absolute;display:flex;align-items:center;gap:34px}
 .lock img{display:block}
 .txt{display:flex;flex-direction:column;align-items:flex-start;font-family:"Poppins",sans-serif}
@@ -28,7 +29,7 @@ body{background:#888;font-family:"Quicksand",sans-serif;display:flex;flex-direct
 <!-- FIRST PAGE HEADER 2480x500. spec: LETTERHEAD-SPEC.md. Zone A (177-1240, 360-430) and Zone B (1300-2160, 215-430) stay blank. Logo ends above y 350. -->
 <div class="piece" id="h1">
   <div class="abs topbar" style="height:120px"></div>
-  <div class="abs" style="left:0;top:108px;width:2480px;height:12px;background:linear-gradient(90deg,var(--green-l),var(--green-d))"></div>
+  <div class="acc" style="top:108px;height:12px"></div>
   <div class="lock" id="lock1" style="left:177px;top:140px">
     <img src="assets/healthhub-mark.png" style="height:200px" alt="HealthHub mark">
     <div class="txt" id="txt1">
@@ -37,14 +38,14 @@ body{background:#888;font-family:"Quicksand",sans-serif;display:flex;flex-direct
     </div>
   </div>
   <div class="abs tag" style="right:320px;top:130px;height:75px;display:flex;align-items:center;font-size:50px">Advancing Healthcare Solutions</div>
-  <div class="abs botbar" style="top:440px;height:60px;background:linear-gradient(90deg,var(--green-l) 0%,var(--green-d) 100%)"></div>
-  <div class="abs" style="left:0;top:440px;width:2480px;height:10px;background:linear-gradient(90deg,var(--blue-l),var(--blue-d))"></div>
+  <div class="abs botbar" style="top:440px;height:60px"></div>
+  <div class="acc" style="top:440px;height:12px"></div>
 </div>
 
 <!-- LATER PAGES HEADER 2480x250 -->
 <div class="piece" id="h2">
   <div class="abs topbar" style="height:56px"></div>
-  <div class="abs" style="left:0;top:48px;width:2480px;height:8px;background:linear-gradient(90deg,var(--green-l),var(--green-d))"></div>
+  <div class="acc" style="top:48px;height:8px"></div>
   <div class="lock" id="lock2" style="left:177px;top:84px;gap:24px">
     <img src="assets/healthhub-mark.png" style="height:120px" alt="HealthHub mark">
     <div class="txt" id="txt2">
@@ -54,15 +55,18 @@ body{background:#888;font-family:"Quicksand",sans-serif;display:flex;flex-direct
   </div>
   <div class="abs tag" style="right:320px;top:112px;height:64px;display:flex;align-items:center;font-size:40px">Advancing Healthcare Solutions</div>
   <div class="abs botbar" style="top:226px;height:24px"></div>
+  <div class="acc" style="top:218px;height:8px"></div>
 </div>
 
 <!-- FOOTER 2480x250, every page -->
 <div class="piece" id="f">
   <div class="abs topbar" style="top:0;height:24px"></div>
+  <div class="acc" style="top:24px;height:8px"></div>
   <div class="abs" style="left:180px;top:80px;font-family:'Poppins',sans-serif;font-weight:700;font-size:54px;line-height:64px;color:var(--navy)">Health<span style="color:var(--green)">Hub</span> <span style="font-weight:500;font-size:34px;color:var(--grey)">by <b style="font-weight:700;color:var(--navy)">MedSource</b></span></div>
   <div class="abs" style="left:180px;top:152px;font-family:'Poppins',sans-serif;font-weight:500;font-size:30px;line-height:40px;letter-spacing:.04em;color:var(--grey);text-transform:uppercase">Diagnostics and Holistic Wellness</div>
   <div class="abs tag" style="right:320px;top:96px;font-size:42px;line-height:56px">Advancing Healthcare Solutions</div>
   <div class="abs botbar" style="top:226px;height:24px"></div>
+  <div class="acc" style="top:218px;height:8px"></div>
 </div>
 
 <script>
