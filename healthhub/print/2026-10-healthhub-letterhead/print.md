@@ -6,9 +6,9 @@
 | Type | Print, letterhead template (header and footer images) |
 | Location | Brand level, HealthHub by MedSource |
 | Status | Draft |
-| Design | MedHealth look carried over, name changed to HealthHub by MedSource. Source: [source.html](source.html) |
+| Design | [MedSource HealthHub Design System](https://claude.ai/artifact/9rBBbMZtz8yim7BnH17PUR) (flat navy #033F75 and green #5FA122, Nunito). MedHealth logo carried over with the name changed to HealthHub by MedSource. Source: [source.html](source.html) |
 
-Same look as MedHealth: the cross and heartbeat mark is untouched (cropped from the supplied logo), navy #033F75 and green #5FA122 wordmark, grey descriptor "Diagnostics and Holistic Wellness". Only the name changed: "MedHealth" became "HealthHub" with a smaller "by MedSource". Blue gradient bars (from the mark's blue) sit on the outer edges, each with a thin solid green accent line (the wordmark green) next to the white area, so every piece uses one colour scheme. Tagline "Advancing Healthcare Solutions" top right, Quicksand. Wordmark and descriptor set in Poppins to match the supplied logo.
+Follows the HealthHub design system: flat colour only (gradients stay inside the logo), navy bars on the outer edges with a thin flat green accent line next to the white area, tagline "Advancing Healthcare Solutions" in Nunito SemiBold grey. The cross and heartbeat mark is untouched (cropped from the supplied MedHealth logo). Only the name changed: "MedHealth" became "HealthHub" with a smaller "by MedSource", in the logo's own Poppins lettering, with the descriptor kept the same width as the wordmark.
 
 Fitted to [LETTERHEAD-SPEC.md](../../../LETTERHEAD-SPEC.md). First page header keeps Zone A (branch tag) and Zone B (phone, email, address) blank because the system prints them. The logo ends at x 1184, y 340, nothing sits under the logo, and only the optional tagline sits at the top right.
 

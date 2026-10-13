@@ -9,7 +9,7 @@ Every publication for EJ's brands in one place: social posts, signage and print,
 | MedSource (and MedSource World) | MedSource Medical Supplies | [MedSource Design System](https://claude.ai/artifact/LojEEUnecRaNcobaZvbXQ8) | [`medsource`](medsource/README.md) |
 | Emmanuelle Pharma & Medical Supplies | [facebook.com/emedsupplies](https://www.facebook.com/emedsupplies/) | [Emmanuelle Design System](https://claude.ai/artifact/BZ3eubu2p5WSvJiqvA3wCV) | [`emmanuelle-pharma`](emmanuelle-pharma/README.md) |
 | MedPlace Medical Supplies & Pharma | [facebook.com/profile.php?id=100094972893534](https://www.facebook.com/profile.php?id=100094972893534) | [MedPlace Design System](https://claude.ai/artifact/Bdmtw2JqfXUNjD4H9957jd) | [`medplace`](medplace/README.md) |
-| HealthHub by MedSource | not yet | not yet | [`healthhub`](healthhub/README.md) |
+| HealthHub by MedSource | not yet | [MedSource HealthHub Design System](https://claude.ai/artifact/9rBBbMZtz8yim7BnH17PUR) | [`healthhub`](healthhub/README.md) |
 
 ## Folder guide
 

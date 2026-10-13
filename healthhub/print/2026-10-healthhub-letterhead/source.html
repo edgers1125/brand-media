@@ -2,17 +2,16 @@
 @font-face{font-family:"Poppins";font-weight:700;src:url("assets/Poppins-Bold.ttf")}
 @font-face{font-family:"Poppins";font-weight:500;src:url("assets/Poppins-Medium.ttf")}
 @font-face{font-family:"Poppins";font-weight:400;src:url("assets/Poppins-Regular.ttf")}
-@font-face{font-family:"Quicksand";font-weight:500;src:url("../../brand/fonts/quicksand-latin-500-normal.woff2")}
-@font-face{font-family:"Quicksand";font-weight:600;src:url("../../brand/fonts/quicksand-latin-600-normal.woff2")}
-@font-face{font-family:"Quicksand";font-weight:700;src:url("../../brand/fonts/quicksand-latin-700-normal.woff2")}
-:root{--navy:#033f75;--green:#5fa122;--grey:#646464;--blue-d:#0757a8;--blue-l:#4aa7d6;--green-l:#a5db6b;--green-d:#4fa547}
+@font-face{font-family:"Nunito";font-weight:600;src:url("../../brand/fonts/Nunito-600.woff2")}
+@font-face{font-family:"Nunito";font-weight:700;src:url("../../brand/fonts/Nunito-700.woff2")}
+:root{--navy:#033f75;--green:#5fa122;--grey:#646464}
 *{box-sizing:border-box;margin:0;padding:0}
-body{background:#888;font-family:"Quicksand",sans-serif;display:flex;flex-direction:column;gap:40px;padding:40px;width:2560px}
+body{background:#888;font-family:"Nunito",sans-serif;display:flex;flex-direction:column;gap:40px;padding:40px;width:2560px}
 .piece{position:relative;width:2480px;background:#fff;overflow:hidden}
 .abs{position:absolute}
 #h1{height:500px}#h2{height:250px}#f{height:250px}
-.topbar{left:0;top:0;width:2480px;background:linear-gradient(90deg,var(--blue-l) 0%,var(--blue-d) 100%)}
-.botbar{left:0;width:2480px;background:linear-gradient(90deg,var(--blue-l) 0%,var(--blue-d) 100%)}
+.topbar{left:0;top:0;width:2480px;background:var(--navy)}
+.botbar{left:0;width:2480px;background:var(--navy)}
 .acc{position:absolute;left:0;width:2480px;background:var(--green)}
 .lock{position:absolute;display:flex;align-items:center;gap:34px}
 .lock img{display:block}
@@ -23,7 +22,7 @@ body{background:#888;font-family:"Quicksand",sans-serif;display:flex;flex-direct
 .name .by{font-weight:500;color:var(--grey)}
 .name .by b{font-weight:700;color:var(--navy)}
 .desc{font-weight:500;color:var(--grey);white-space:nowrap;line-height:1;text-transform:uppercase}
-.tag{font-family:"Quicksand",sans-serif;font-weight:700;color:var(--navy);white-space:nowrap;text-align:right}
+.tag{font-family:"Nunito",sans-serif;font-weight:600;color:var(--grey);white-space:nowrap;text-align:right}
 </style></head><body>
 
 <!-- FIRST PAGE HEADER 2480x500. spec: LETTERHEAD-SPEC.md. Zone A (177-1240, 360-430) and Zone B (1300-2160, 215-430) stay blank. Logo ends above y 350. -->
