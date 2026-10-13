@@ -12,6 +12,7 @@ Letterhead format: [LETTERHEAD-SPEC.md](../LETTERHEAD-SPEC.md). No em dashes.
 
 ## Brand files
 
+- `brand/logos/healthhub-by-medsource-horizontal.png`: logo only, transparent PNG with clear space (mark, HealthHub by MedSource, descriptor)
 - `brand/logos/healthhub-mark.png`: the cross and heartbeat mark, cropped unchanged from the MedHealth logo
 - `brand/logos/medhealth-source-*.png`: the supplied MedHealth logos
 - `brand/fonts/`: Quicksand and Nunito

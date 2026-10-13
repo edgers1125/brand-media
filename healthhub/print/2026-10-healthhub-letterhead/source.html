@@ -88,7 +88,7 @@ function fit(lock){
   name.style.fontSize=s+'px'; name.querySelectorAll('.w').forEach(e=>e.style.fontSize=s+'px');
   const W=name.getBoundingClientRect().width, X=CAP*s;
   const b=s*.30; by.style.fontSize=b+'px';
-  desc.style.fontSize='20px'; const dw=desc.getBoundingClientRect().width; const d=20*W/dw; desc.style.fontSize=d+'px';
+  desc.style.fontSize='20px'; const dw=desc.getBoundingClientRect().width; const inset=.049*s, d=20*(W-0.65*inset)/dw; desc.style.fontSize=d+'px'; desc.style.left=inset+'px'; // optical: descriptor D aligns with the H stem, right edge with MedSource
   const y0=0;                       // wordmark cap top
   const base0=y0+X;                 // wordmark baseline
   const byCap=base0+.20*X, byBase=byCap+CAP*b;
