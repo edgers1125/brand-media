@@ -11,16 +11,17 @@ body{background:#888;font-family:"Nunito",sans-serif;display:flex;flex-direction
 .abs{position:absolute}
 .bar{position:absolute;left:0;width:2480px;background:var(--navy)}
 .acc{position:absolute;left:0;width:2480px;background:var(--green)}
-/* lockup: mark + text block, text block centred on the cross */
+/* lockup: mark + text block. Text lines are positioned by cap height so gaps are optical, not line-box accidents. */
 .lock{position:absolute;left:177px;display:flex;align-items:center}
 .lock img{display:block;flex:none}
-.txt{display:flex;flex-direction:column;align-items:flex-start;font-family:"Poppins",sans-serif}
-.name{display:flex;align-items:baseline;line-height:1;white-space:nowrap}
+.txt{position:relative;font-family:"Poppins",sans-serif}
+.txt>div{position:absolute;white-space:nowrap;line-height:1}
+.name{left:0;display:flex}
 .wm{display:inline-flex}
 .w{font-weight:700;letter-spacing:-.01em}
-.by{font-weight:500;color:var(--grey)}
+.by{right:0;font-weight:500;color:var(--grey)}
 .by b{font-weight:700;color:var(--navy)}
-.desc{font-weight:500;color:var(--grey);white-space:nowrap;line-height:1;text-transform:uppercase;letter-spacing:.06em}
+.desc{left:0;font-weight:500;color:var(--grey);text-transform:uppercase;letter-spacing:.06em}
 /* tagline: Nunito SemiBold grey with a short green rule */
 .tagwrap{position:absolute;right:320px;display:flex;flex-direction:column;align-items:stretch}
 .tag{font-family:"Nunito",sans-serif;font-weight:600;color:var(--grey);white-space:nowrap;text-align:right;letter-spacing:.01em}
@@ -31,10 +32,11 @@ body{background:#888;font-family:"Nunito",sans-serif;display:flex;flex-direction
 <div class="piece" id="h1" style="height:500px">
   <div class="bar" style="top:0;height:120px"></div>
   <div class="acc" style="top:108px;height:12px"></div>
-  <div class="lock" id="lock1" style="top:120px;height:230px" data-gap="40" data-target="800" data-icon="200">
+  <div class="lock" id="lock1" style="top:120px;height:230px" data-gap="36" data-s="122">
     <img src="assets/healthhub-mark.png" style="height:200px" alt="HealthHub mark">
     <div class="txt">
-      <div class="name"><span class="wm"><span class="w" style="color:var(--navy)">Health</span><span class="w" style="color:var(--green)">Hub</span></span><span class="by">by <b>MedSource</b></span></div>
+      <div class="name"><span class="wm"><span class="w" style="color:var(--navy)">Health</span><span class="w" style="color:var(--green)">Hub</span></span></div>
+      <div class="by">by <b>MedSource</b></div>
       <div class="desc">Diagnostics and Holistic Wellness</div>
     </div>
   </div>
@@ -48,10 +50,11 @@ body{background:#888;font-family:"Nunito",sans-serif;display:flex;flex-direction
 <div class="piece" id="h2" style="height:250px">
   <div class="bar" style="top:0;height:56px"></div>
   <div class="acc" style="top:48px;height:8px"></div>
-  <div class="lock" id="lock2" style="top:56px;height:162px" data-gap="30" data-target="580" data-icon="112">
+  <div class="lock" id="lock2" style="top:56px;height:162px" data-gap="20" data-s="68">
     <img src="assets/healthhub-mark.png" style="height:112px" alt="HealthHub mark">
     <div class="txt">
-      <div class="name"><span class="wm"><span class="w" style="color:var(--navy)">Health</span><span class="w" style="color:var(--green)">Hub</span></span><span class="by">by <b>MedSource</b></span></div>
+      <div class="name"><span class="wm"><span class="w" style="color:var(--navy)">Health</span><span class="w" style="color:var(--green)">Hub</span></span></div>
+      <div class="by">by <b>MedSource</b></div>
       <div class="desc">Diagnostics and Holistic Wellness</div>
     </div>
   </div>
@@ -64,9 +67,10 @@ body{background:#888;font-family:"Nunito",sans-serif;display:flex;flex-direction
 <div class="piece" id="f" style="height:250px">
   <div class="bar" style="top:0;height:24px"></div>
   <div class="acc" style="top:24px;height:8px"></div>
-  <div class="lock" id="lock3" style="top:32px;height:186px" data-gap="0" data-target="640" data-icon="0">
+  <div class="lock" id="lock3" style="top:32px;height:186px" data-gap="0" data-s="80">
     <div class="txt">
-      <div class="name"><span class="wm"><span class="w" style="color:var(--navy)">Health</span><span class="w" style="color:var(--green)">Hub</span></span><span class="by">by <b>MedSource</b></span></div>
+      <div class="name"><span class="wm"><span class="w" style="color:var(--navy)">Health</span><span class="w" style="color:var(--green)">Hub</span></span></div>
+      <div class="by">by <b>MedSource</b></div>
       <div class="desc">Diagnostics and Holistic Wellness</div>
     </div>
   </div>
@@ -76,14 +80,21 @@ body{background:#888;font-family:"Nunito",sans-serif;display:flex;flex-direction
 </div>
 
 <script>
-// Proportions: by MedSource is 36% of the wordmark size; descriptor is tracked +6% and set to the exact width of the name line; icon to text gap and line gap scale with the wordmark.
+// Poppins cap height .703em, line-height 1 puts cap top at .147em. X = wordmark cap height.
+// Lines: wordmark; "by MedSource" at 30% size right-aligned under the wordmark; descriptor tracked +6%, set to the exact wordmark width.
 function fit(lock){
-  const name=lock.querySelector('.name'),desc=lock.querySelector('.desc'),by=lock.querySelector('.by'),txt=lock.querySelector('.txt'),img=lock.querySelector('img');
-  const target=+lock.dataset.target, gap=+lock.dataset.gap;
-  const setSize=px=>{name.querySelectorAll('.w').forEach(e=>e.style.fontSize=px+'px');by.style.fontSize=(px*.36)+'px';by.style.marginLeft=(px*.17)+'px';desc.style.marginTop=(px*.22)+'px'};
-  setSize(100);
-  const px=100*target/name.getBoundingClientRect().width; setSize(px);
-  desc.style.fontSize='20px'; const w=desc.getBoundingClientRect().width; desc.style.fontSize=(20*name.getBoundingClientRect().width/w)+'px';
+  const txt=lock.querySelector('.txt'),name=txt.querySelector('.name'),by=txt.querySelector('.by'),desc=txt.querySelector('.desc'),img=lock.querySelector('img');
+  const s=+lock.dataset.s, gap=+lock.dataset.gap, CAP=.703, TOP=.147;
+  name.style.fontSize=s+'px'; name.querySelectorAll('.w').forEach(e=>e.style.fontSize=s+'px');
+  const W=name.getBoundingClientRect().width, X=CAP*s;
+  const b=s*.30; by.style.fontSize=b+'px';
+  desc.style.fontSize='20px'; const dw=desc.getBoundingClientRect().width; const d=20*W/dw; desc.style.fontSize=d+'px';
+  const y0=0;                       // wordmark cap top
+  const base0=y0+X;                 // wordmark baseline
+  const byCap=base0+.20*X, byBase=byCap+CAP*b;
+  const dCap=byBase+.27*X, dBase=dCap+CAP*d;
+  name.style.top=(y0-TOP*s)+'px'; by.style.top=(byCap-TOP*b)+'px'; desc.style.top=(dCap-TOP*d)+'px';
+  txt.style.width=W+'px'; txt.style.height=dBase+'px';
   if(img) txt.style.marginLeft=gap+'px';
 }
 document.fonts.ready.then(()=>{document.querySelectorAll('.lock').forEach(fit);document.body.dataset.ready='1'});
