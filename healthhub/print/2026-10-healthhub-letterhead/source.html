@@ -32,7 +32,7 @@ body{background:#888;font-family:"Nunito",sans-serif;display:flex;flex-direction
 <div class="piece" id="h1" style="height:500px">
   <div class="bar" style="top:0;height:120px"></div>
   <div class="acc" style="top:108px;height:12px"></div>
-  <div class="lock" id="lock1" style="top:120px;height:230px" data-s="100">
+  <div class="lock" id="lock1" style="top:120px;height:204px" data-s="100">
     <img src="assets/healthhub-mark.png" style="height:170px" alt="HealthHub mark">
     <div class="txt">
       <div class="name"><span class="wm"><span class="w" style="color:var(--navy)">Health</span><span class="w" style="color:var(--green)">Hub</span></span></div>
@@ -40,7 +40,7 @@ body{background:#888;font-family:"Nunito",sans-serif;display:flex;flex-direction
       <div class="desc">Diagnostics and Holistic Wellness</div>
     </div>
   </div>
-  <div class="tagwrap" style="top:135px"><div class="tag" style="font-size:44px;line-height:52px">Advancing Healthcare Solutions</div><i style="margin-top:8px"></i></div>
+  <div class="tagwrap" id="tag1" style="top:135px"><div class="tag" style="font-size:40px;line-height:48px">Advancing Healthcare Solutions</div></div>
   <div class="acc" style="top:440px;height:12px"></div>
   <div class="bar" style="top:440px;height:60px"></div>
   <div class="acc" style="top:440px;height:12px"></div>
@@ -58,7 +58,7 @@ body{background:#888;font-family:"Nunito",sans-serif;display:flex;flex-direction
       <div class="desc">Diagnostics and Holistic Wellness</div>
     </div>
   </div>
-  <div class="tagwrap" style="top:108px"><div class="tag" style="font-size:38px;line-height:46px">Advancing Healthcare Solutions</div><i style="margin-top:8px"></i></div>
+  <div class="tagwrap" id="tag2" style="top:108px"><div class="tag" style="font-size:38px;line-height:46px">Advancing Healthcare Solutions</div><i style="margin-top:8px"></i></div>
   <div class="acc" style="top:218px;height:8px"></div>
   <div class="bar" style="top:226px;height:24px"></div>
 </div>
@@ -74,7 +74,7 @@ body{background:#888;font-family:"Nunito",sans-serif;display:flex;flex-direction
       <div class="desc">Diagnostics and Holistic Wellness</div>
     </div>
   </div>
-  <div class="tagwrap" style="top:96px"><div class="tag" style="font-size:38px;line-height:46px">Advancing Healthcare Solutions</div><i style="margin-top:8px"></i></div>
+  <div class="tagwrap" id="tag3" style="top:96px"><div class="tag" style="font-size:38px;line-height:46px">Advancing Healthcare Solutions</div><i style="margin-top:8px"></i></div>
   <div class="acc" style="top:218px;height:8px"></div>
   <div class="bar" style="top:226px;height:24px"></div>
 </div>
@@ -100,6 +100,13 @@ function fit(lock){
   txt.style.width=rowW+'px'; txt.style.height=(dCap+CAP*d)+'px';
   if(img) txt.style.marginLeft=(.45*X)+'px';
 }
-document.fonts.ready.then(()=>{document.querySelectorAll('.lock').forEach(fit);document.body.dataset.ready='1'});
+function alignTag(lockId,tagId){
+  const lock=document.getElementById(lockId),tag=document.getElementById(tagId),piece=lock.parentElement,t=tag.querySelector('.tag');
+  const P=piece.getBoundingClientRect(),txt=lock.querySelector('.txt').getBoundingClientRect();
+  const X=.703*(+lock.dataset.s), capCenter=txt.top-P.top+X/2;
+  const lh=parseFloat(getComputedStyle(t).lineHeight);
+  tag.style.top=(capCenter-lh/2)+'px';
+}
+document.fonts.ready.then(()=>{document.querySelectorAll('.lock').forEach(fit);alignTag('lock1','tag1');alignTag('lock2','tag2');alignTag('lock3','tag3');document.body.dataset.ready='1'});
 </script>
 </body></html>
