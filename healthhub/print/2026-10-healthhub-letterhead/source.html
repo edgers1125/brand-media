@@ -32,15 +32,15 @@ body{background:#888;font-family:"Nunito",sans-serif;display:flex;flex-direction
 <div class="piece" id="h1" style="height:500px">
   <div class="bar" style="top:0;height:120px"></div>
   <div class="acc" style="top:108px;height:12px"></div>
-  <div class="lock" id="lock1" style="top:114px;height:204px" data-s="100">
-    <img src="assets/healthhub-mark.png" style="height:170px" alt="HealthHub mark">
+  <div class="lock" id="lock1" style="top:110px;height:204px" data-s="107">
+    <img src="assets/healthhub-mark.png" style="height:158px" alt="HealthHub mark">
     <div class="txt">
       <div class="name"><span class="wm"><span class="w" style="color:var(--navy)">Health</span><span class="w" style="color:var(--green)">Hub</span></span></div>
       <div class="by">by <b>MedSource</b></div>
       <div class="desc">Diagnostics and Holistic Wellness</div>
     </div>
   </div>
-  <div class="tagwrap" id="tag1" style="top:135px"><div class="tag" style="font-size:54px;line-height:60px">Advancing Healthcare Solutions</div></div>
+  <div class="tagwrap" id="tag1" data-dy="-3" style="top:135px"><div class="tag" style="font-size:54px;line-height:60px">Advancing Healthcare Solutions</div></div>
   <div class="acc" style="top:440px;height:12px"></div>
   <div class="bar" style="top:440px;height:60px"></div>
   <div class="acc" style="top:440px;height:12px"></div>
@@ -50,8 +50,8 @@ body{background:#888;font-family:"Nunito",sans-serif;display:flex;flex-direction
 <div class="piece" id="h2" style="height:250px">
   <div class="bar" style="top:0;height:56px"></div>
   <div class="acc" style="top:48px;height:8px"></div>
-  <div class="lock" id="lock2" style="top:56px;height:162px" data-s="78">
-    <img src="assets/healthhub-mark.png" style="height:112px" alt="HealthHub mark">
+  <div class="lock" id="lock2" style="top:56px;height:162px" data-s="84">
+    <img src="assets/healthhub-mark.png" style="height:124px" alt="HealthHub mark">
     <div class="txt">
       <div class="name"><span class="wm"><span class="w" style="color:var(--navy)">Health</span><span class="w" style="color:var(--green)">Hub</span></span></div>
       <div class="by">by <b>MedSource</b></div>
@@ -67,7 +67,7 @@ body{background:#888;font-family:"Nunito",sans-serif;display:flex;flex-direction
 <div class="piece" id="f" style="height:250px">
   <div class="bar" style="top:0;height:24px"></div>
   <div class="acc" style="top:24px;height:8px"></div>
-  <div class="lock" id="lock3" style="top:32px;height:186px" data-s="80">
+  <div class="lock" id="lock3" style="top:32px;height:186px" data-s="84">
     <div class="txt">
       <div class="name"><span class="wm"><span class="w" style="color:var(--navy)">Health</span><span class="w" style="color:var(--green)">Hub</span></span></div>
       <div class="by">by <b>MedSource</b></div>
@@ -89,16 +89,16 @@ function fit(lock){
   name.style.fontSize=s+'px'; name.querySelectorAll('.w').forEach(e=>e.style.fontSize=s+'px');
   const W=name.getBoundingClientRect().width;
   const b=s*.36; by.style.fontSize=b+'px';
-  const byLeft=W+.24*s; by.style.left=byLeft+'px';
+  const byLeft=W+.10*s; by.style.left=byLeft+'px';
   const rowW=byLeft+by.getBoundingClientRect().width;
   const base0=X;                                  // baseline y (cap top at 0)
   name.style.top=(-TOP*s)+'px'; name.style.left='0px';
   by.style.top=(base0-BASE*b)+'px';
   desc.style.fontSize='20px'; const dw=desc.getBoundingClientRect().width;
   const inset=.049*s, d=20*(rowW-inset-(+lock.dataset.r||0)*s)/dw; desc.style.fontSize=d+'px'; desc.style.left=inset+'px';
-  const dCap=base0+.55*X; desc.style.top=(dCap-TOP*d)+'px';
+  const dCap=base0+.30*X; desc.style.top=(dCap-TOP*d)+'px';
   txt.style.width=rowW+'px'; txt.style.height=(dCap+CAP*d)+'px';
-  if(img) txt.style.marginLeft=(.45*X)+'px';
+  if(img) txt.style.marginLeft=(.40*X)+'px';
   if(img) txt.style.top=(.027*X)+'px';   // optical: centre the text block (ascender top to descriptor baseline) on the cross
 }
 function alignTag(lockId,tagId){
@@ -106,7 +106,7 @@ function alignTag(lockId,tagId){
   const P=piece.getBoundingClientRect(),txt=lock.querySelector('.txt').getBoundingClientRect();
   const X=.703*(+lock.dataset.s), capCenter=txt.top-P.top+X/2;
   const lh=parseFloat(getComputedStyle(t).lineHeight);
-  tag.style.top=(capCenter-lh/2)+'px';
+  tag.style.top=(capCenter-lh/2+(+tag.dataset.dy||0))+'px';
 }
 document.fonts.ready.then(()=>{document.querySelectorAll('.lock').forEach(fit);alignTag('lock1','tag1');alignTag('lock2','tag2');alignTag('lock3','tag3');document.body.dataset.ready='1'});
 </script>
