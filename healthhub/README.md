@@ -12,8 +12,14 @@ Letterhead format: [LETTERHEAD-SPEC.md](../LETTERHEAD-SPEC.md). No em dashes.
 
 ## Brand files
 
-- `brand/logos/healthhub-by-medsource-horizontal.png`: logo only, transparent PNG with clear space (mark, HealthHub by MedSource, descriptor)
-- `brand/logos/healthhub-by-medsource-horizontal-white.png`: same logo on a white background
-- `brand/logos/healthhub-mark.png`: the cross and heartbeat mark, cropped unchanged from the MedHealth logo
+Official logo: HealthHub by MedSource. All SVGs are fully vector (text outlined from Poppins, no fonts needed), with 0.5X clear space built in (X = wordmark cap height). The cross is the vector cross from the design system's assets.
+
+- `brand/logos/healthhub-by-medsource-horizontal.svg`: horizontal lockup, default for letterheads, web and signage bands
+- `brand/logos/healthhub-by-medsource-portrait.svg`: portrait (stacked) lockup for square spaces, signs and social
+- `brand/logos/healthhub-by-medsource-text.svg`: text lockup without the mark (letterhead footer)
+- `brand/logos/healthhub-mark.svg`: the cross and heartbeat alone
+- `*.png`: transparent renders (horizontal 5000 px, portrait 3000 px wide); `*-white.png`: same on a white background
 - `brand/logos/medhealth-source-*.png`: the supplied MedHealth logos
 - `brand/fonts/`: Quicksand and Nunito
+
+Proportions: horizontal mark is 2.1X tall, "by MedSource" is 0.36 of the wordmark size on the same baseline 0.10 of the wordmark size from HealthHub, descriptor 0.30X under the baseline, set to the full row width and tracked +6%. Portrait mark is 3.0X tall, 0.55X above the wordmark, "by MedSource" centred at 0.36 of the wordmark size, descriptor centred at the wordmark width.

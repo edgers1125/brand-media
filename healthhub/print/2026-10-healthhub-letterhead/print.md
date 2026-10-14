@@ -6,11 +6,13 @@
 | Type | Print, letterhead template (header and footer images) |
 | Location | Brand level, HealthHub by MedSource |
 | Status | Draft |
-| Design | [MedSource HealthHub Design System](https://claude.ai/artifact/9rBBbMZtz8yim7BnH17PUR) (flat navy #033F75 and green #5FA122, Nunito). MedHealth logo carried over with the name changed to HealthHub by MedSource. Source: [source.html](source.html) |
+| Design | [MedSource HealthHub Design System](https://claude.ai/artifact/9rBBbMZtz8yim7BnH17PUR) (flat navy #033F75 and green #5FA122, Nunito). Official HealthHub by MedSource logo (cross from the design system vector assets). Source: [source.html](source.html) |
 
-Follows the HealthHub design system: flat colour only (gradients stay inside the logo), navy bars on the outer edges with a thin flat green accent line next to the white area, tagline "Advancing Healthcare Solutions" in Nunito SemiBold grey with a short green rule. The lockup keeps HealthHub and a smaller "by MedSource" on one baseline with the descriptor beneath, set to the full row width and tracked +6%. Tight spacing, measured from the wordmark cap height X: "by MedSource" sits 0.10 of the wordmark size from HealthHub, the descriptor 0.30X under the baseline, mark to text 0.40X, mark about 2.1X tall, and the text block is centred on the cross. The tagline sized to the wordmark (about 0.54 of its size on the first page) and vertically centred on its cap height in all three pieces (header first page has no underline so it stays inside the optional tagline band). The cross and heartbeat mark is untouched (cropped from the supplied MedHealth logo). Only the name changed: "MedHealth" became "HealthHub" with a smaller "by MedSource", in the logo's own Poppins lettering, with the descriptor kept the same width as the wordmark.
+Follows the HealthHub design system: flat colour only (gradients stay inside the logo), navy bars on the outer edges with a thin flat green accent line next to the white area, tagline "Advancing Healthcare Solutions" in Nunito SemiBold grey.
 
-Fitted to [LETTERHEAD-SPEC.md](../../../LETTERHEAD-SPEC.md). First page header keeps Zone A (branch tag) and Zone B (phone, email, address) blank because the system prints them. The logo ends at x 1184, y 340, nothing sits under the logo, and only the optional tagline sits at the top right.
+The logo is the official vector, [healthhub-by-medsource-horizontal.svg](../../brand/logos/healthhub-by-medsource-horizontal.svg), placed at wordmark size 107px on the first page and 84px on later pages. The footer uses the text lockup without the mark, [healthhub-by-medsource-text.svg](../../brand/logos/healthhub-by-medsource-text.svg). The tagline is sized to the wordmark (about 0.54 of its size on the first page) and centred on the wordmark cap height; the first page has no underline so it stays inside the optional tagline band.
+
+Fitted to [LETTERHEAD-SPEC.md](../../../LETTERHEAD-SPEC.md). First page header keeps Zone A (branch tag) and Zone B (phone, email, address) blank because the system prints them. The logo ends at x 1235 and y 291, nothing sits under the logo, and only the optional tagline sits at the top right.
 
 ## Files
 

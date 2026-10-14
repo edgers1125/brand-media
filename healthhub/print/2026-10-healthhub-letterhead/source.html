@@ -1,8 +1,5 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><title>HealthHub by MedSource letterhead</title><style>
-@font-face{font-family:"Poppins";font-weight:700;src:url("assets/Poppins-Bold.ttf")}
-@font-face{font-family:"Poppins";font-weight:500;src:url("assets/Poppins-Medium.ttf")}
 @font-face{font-family:"Nunito";font-weight:600;src:url("../../brand/fonts/Nunito-600.woff2")}
-@font-face{font-family:"Nunito";font-weight:700;src:url("../../brand/fonts/Nunito-700.woff2")}
 /* HealthHub design system: flat navy #033F75, green #5FA122, grey #646464. Gradients stay inside the logo. */
 :root{--navy:#033f75;--green:#5fa122;--grey:#646464}
 *{box-sizing:border-box;margin:0;padding:0}
@@ -11,103 +8,41 @@ body{background:#888;font-family:"Nunito",sans-serif;display:flex;flex-direction
 .abs{position:absolute}
 .bar{position:absolute;left:0;width:2480px;background:var(--navy)}
 .acc{position:absolute;left:0;width:2480px;background:var(--green)}
-/* lockup: mark + text block. Text lines are positioned by cap height so gaps are optical, not line-box accidents. */
-.lock{position:absolute;left:177px;display:flex;align-items:center}
-.lock img{display:block;flex:none}
-.txt{position:relative;font-family:"Poppins",sans-serif}
-.txt>div{position:absolute;white-space:nowrap;line-height:1}
-.name{left:0;display:flex}
-.wm{display:inline-flex}
-.w{font-weight:700;letter-spacing:-.01em}
-.by{font-weight:500;color:var(--grey)}
-.by b{font-weight:700;color:var(--navy)}
-.desc{left:0;font-weight:500;color:var(--grey);text-transform:uppercase;letter-spacing:.06em}
-/* tagline: Nunito SemiBold grey with a short green rule */
+.logo{position:absolute;display:block}
 .tagwrap{position:absolute;right:320px;display:flex;flex-direction:column;align-items:stretch}
 .tag{font-family:"Nunito",sans-serif;font-weight:600;color:var(--grey);white-space:nowrap;text-align:right;letter-spacing:.01em}
 .tagwrap i{display:block;height:4px;background:var(--green);border-radius:2px}
-</style></head><body>
+</style></head><body data-ready="1">
 
-<!-- FIRST PAGE HEADER 2480x500. spec: LETTERHEAD-SPEC.md. Zone A (177-1240, 360-430) and Zone B (1300-2160, 215-430) stay blank. Logo ends above y 350. -->
+<!-- FIRST PAGE HEADER 2480x500. spec: LETTERHEAD-SPEC.md. Zone A (177-1240, 360-430) and Zone B (1300-2160, 215-430) stay blank. Logo ends above y 350 and before x 1240.
+     Logo: official vector, brand/logos/healthhub-by-medsource-horizontal.svg, wordmark 107px (scale 0.535). -->
 <div class="piece" id="h1" style="height:500px">
   <div class="bar" style="top:0;height:120px"></div>
   <div class="acc" style="top:108px;height:12px"></div>
-  <div class="lock" id="lock1" style="top:110px;height:204px" data-s="107">
-    <img src="assets/healthhub-mark.png" style="height:158px" alt="HealthHub mark">
-    <div class="txt">
-      <div class="name"><span class="wm"><span class="w" style="color:var(--navy)">Health</span><span class="w" style="color:var(--green)">Hub</span></span></div>
-      <div class="by">by <b>MedSource</b></div>
-      <div class="desc">Diagnostics and Holistic Wellness</div>
-    </div>
-  </div>
-  <div class="tagwrap" id="tag1" data-dy="-3" style="top:135px"><div class="tag" style="font-size:54px;line-height:60px">Advancing Healthcare Solutions</div></div>
+  <img class="logo" src="../../brand/logos/healthhub-by-medsource-horizontal.svg" style="left:140.39px;top:95.39px;width:1131.85px;height:233.58px" alt="HealthHub by MedSource">
+  <div class="tagwrap" style="top:155.3px"><div class="tag" style="font-size:54px;line-height:60px">Advancing Healthcare Solutions</div></div>
   <div class="acc" style="top:440px;height:12px"></div>
   <div class="bar" style="top:440px;height:60px"></div>
   <div class="acc" style="top:440px;height:12px"></div>
 </div>
 
-<!-- LATER PAGES HEADER 2480x250 -->
+<!-- LATER PAGES HEADER 2480x250. Same logo, wordmark 84px (scale 0.420). -->
 <div class="piece" id="h2" style="height:250px">
   <div class="bar" style="top:0;height:56px"></div>
   <div class="acc" style="top:48px;height:8px"></div>
-  <div class="lock" id="lock2" style="top:56px;height:162px" data-s="84">
-    <img src="assets/healthhub-mark.png" style="height:124px" alt="HealthHub mark">
-    <div class="txt">
-      <div class="name"><span class="wm"><span class="w" style="color:var(--navy)">Health</span><span class="w" style="color:var(--green)">Hub</span></span></div>
-      <div class="by">by <b>MedSource</b></div>
-      <div class="desc">Diagnostics and Holistic Wellness</div>
-    </div>
-  </div>
-  <div class="tagwrap" id="tag2" style="top:108px"><div class="tag" style="font-size:46px;line-height:54px">Advancing Healthcare Solutions</div><i style="margin-top:8px"></i></div>
+  <img class="logo" src="../../brand/logos/healthhub-by-medsource-horizontal.svg" style="left:148.47px;top:45.47px;width:888.55px;height:183.37px" alt="HealthHub by MedSource">
+  <div class="tagwrap" style="top:91.4px"><div class="tag" style="font-size:46px;line-height:54px">Advancing Healthcare Solutions</div><i style="margin-top:8px"></i></div>
   <div class="acc" style="top:218px;height:8px"></div>
   <div class="bar" style="top:226px;height:24px"></div>
 </div>
 
-<!-- FOOTER 2480x250, every page -->
+<!-- FOOTER 2480x250, every page. Text lockup without the mark: brand/logos/healthhub-by-medsource-text.svg, wordmark 84px. -->
 <div class="piece" id="f" style="height:250px">
   <div class="bar" style="top:0;height:24px"></div>
   <div class="acc" style="top:24px;height:8px"></div>
-  <div class="lock" id="lock3" style="top:32px;height:186px" data-s="84">
-    <div class="txt">
-      <div class="name"><span class="wm"><span class="w" style="color:var(--navy)">Health</span><span class="w" style="color:var(--green)">Hub</span></span></div>
-      <div class="by">by <b>MedSource</b></div>
-      <div class="desc">Diagnostics and Holistic Wellness</div>
-    </div>
-  </div>
-  <div class="tagwrap" id="tag3" style="top:96px"><div class="tag" style="font-size:46px;line-height:54px">Advancing Healthcare Solutions</div><i style="margin-top:8px"></i></div>
+  <img class="logo" src="../../brand/logos/healthhub-by-medsource-text.svg" style="left:152.47px;top:42.47px;width:736.09px;height:162.37px" alt="HealthHub by MedSource">
+  <div class="tagwrap" style="top:77.9px"><div class="tag" style="font-size:46px;line-height:54px">Advancing Healthcare Solutions</div><i style="margin-top:8px"></i></div>
   <div class="acc" style="top:218px;height:8px"></div>
   <div class="bar" style="top:226px;height:24px"></div>
 </div>
-
-<script>
-// Inline lockup. X = wordmark cap height (Poppins cap .703em; line-height 1 puts cap top at .147em, baseline at .85em).
-// Rows: [HealthHub  by MedSource] sharing one baseline, then the descriptor (tracked +6%) set to the full row width.
-// Gaps are measured in X: mark to text .45X, wordmark to "by" .24 s, row to descriptor .55X. Text block is centred on the cross.
-function fit(lock){
-  const txt=lock.querySelector('.txt'),name=txt.querySelector('.name'),by=txt.querySelector('.by'),desc=txt.querySelector('.desc'),img=lock.querySelector('img');
-  const s=+lock.dataset.s, CAP=.703, TOP=.147, BASE=.85, X=CAP*s;
-  name.style.fontSize=s+'px'; name.querySelectorAll('.w').forEach(e=>e.style.fontSize=s+'px');
-  const W=name.getBoundingClientRect().width;
-  const b=s*.36; by.style.fontSize=b+'px';
-  const byLeft=W+.10*s; by.style.left=byLeft+'px';
-  const rowW=byLeft+by.getBoundingClientRect().width;
-  const base0=X;                                  // baseline y (cap top at 0)
-  name.style.top=(-TOP*s)+'px'; name.style.left='0px';
-  by.style.top=(base0-BASE*b)+'px';
-  desc.style.fontSize='20px'; const dw=desc.getBoundingClientRect().width;
-  const inset=.049*s, d=20*(rowW-inset-(+lock.dataset.r||0)*s)/dw; desc.style.fontSize=d+'px'; desc.style.left=inset+'px';
-  const dCap=base0+.30*X; desc.style.top=(dCap-TOP*d)+'px';
-  txt.style.width=rowW+'px'; txt.style.height=(dCap+CAP*d)+'px';
-  if(img) txt.style.marginLeft=(.40*X)+'px';
-  if(img) txt.style.top=(.027*X)+'px';   // optical: centre the text block (ascender top to descriptor baseline) on the cross
-}
-function alignTag(lockId,tagId){
-  const lock=document.getElementById(lockId),tag=document.getElementById(tagId),piece=lock.parentElement,t=tag.querySelector('.tag');
-  const P=piece.getBoundingClientRect(),txt=lock.querySelector('.txt').getBoundingClientRect();
-  const X=.703*(+lock.dataset.s), capCenter=txt.top-P.top+X/2;
-  const lh=parseFloat(getComputedStyle(t).lineHeight);
-  tag.style.top=(capCenter-lh/2+(+tag.dataset.dy||0))+'px';
-}
-document.fonts.ready.then(()=>{document.querySelectorAll('.lock').forEach(fit);alignTag('lock1','tag1');alignTag('lock2','tag2');alignTag('lock3','tag3');document.body.dataset.ready='1'});
-</script>
 </body></html>
