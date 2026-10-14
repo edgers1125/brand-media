@@ -99,6 +99,7 @@ function fit(lock){
   const dCap=base0+.55*X; desc.style.top=(dCap-TOP*d)+'px';
   txt.style.width=rowW+'px'; txt.style.height=(dCap+CAP*d)+'px';
   if(img) txt.style.marginLeft=(.45*X)+'px';
+  if(img) txt.style.top=(.027*X)+'px';   // optical: centre the text block (ascender top to descriptor baseline) on the cross
 }
 function alignTag(lockId,tagId){
   const lock=document.getElementById(lockId),tag=document.getElementById(tagId),piece=lock.parentElement,t=tag.querySelector('.tag');
