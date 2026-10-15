@@ -18,6 +18,7 @@ Official logo: HealthHub by MedSource. All SVGs are fully vector (text outlined 
 - `brand/logos/healthhub-by-medsource-horizontal.svg`: horizontal lockup, default for letterheads, web and signage bands
 - `brand/logos/healthhub-by-medsource-portrait.svg`: portrait (stacked) lockup for square spaces, signs and social
 - `brand/logos/medsource-healthhub-horizontal.svg` and `-portrait.svg`: parent-company lockup "MedSource HealthHub" (same cross-and-heartbeat mark, navy MedSource, green HealthHub, descriptor "Advancing Healthcare Solutions"), with transparent and `-white.png` renders
+- `brand/logos/md-source-diagnostics-horizontal.svg` and `-portrait.svg`: "M.D. Source Diagnostics and Holistic Wellness" lockup (same mark and style; navy M.D., green Source, descriptor "Diagnostics and Holistic Wellness"), with transparent and `-white.png` renders
 - `brand/logos/healthhub-by-medsource-text.svg`: text lockup without the mark (letterhead footer)
 - `brand/logos/healthhub-mark.svg`: the cross and heartbeat alone
 - `*.png`: transparent renders (horizontal 5000 px, portrait 3000 px wide); `*-white.png`: same on a white background
