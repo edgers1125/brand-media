@@ -8,6 +8,7 @@ Letterhead format: [LETTERHEAD-SPEC.md](../LETTERHEAD-SPEC.md). No em dashes.
 
 | Date | Title | Status | Preview |
 | --- | --- | --- | --- |
+| 2026-10-15 | [HealthHub by MedSource government letterhead](print/2026-10-healthhub-letterhead-government/print.md) | Draft | <img src="print/2026-10-healthhub-letterhead-government/healthhub-government-letterhead-header-first-page-2480x500.png" width="120"> |
 | 2026-10-13 | [HealthHub by MedSource letterhead](print/2026-10-healthhub-letterhead/print.md) | Draft | <img src="print/2026-10-healthhub-letterhead/healthhub-letterhead-header-first-page-2480x500.png" width="120"> |
 
 ## Brand files

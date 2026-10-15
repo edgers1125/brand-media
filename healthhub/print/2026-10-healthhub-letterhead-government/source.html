@@ -1,0 +1,52 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>HealthHub by MedSource letterhead</title><style>
+@font-face{font-family:"Nunito";font-weight:600;src:url("../../brand/fonts/Nunito-600.woff2")}
+/* HealthHub design system: flat navy #033F75, green #5FA122, grey #646464. Gradients stay inside the logo. */
+:root{--navy:#033f75;--green:#5fa122;--grey:#646464}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#888;font-family:"Nunito",sans-serif;display:flex;flex-direction:column;gap:40px;padding:40px;width:2560px}
+.piece{position:relative;width:2480px;background:#fff;overflow:hidden}
+.abs{position:absolute}
+.bar{position:absolute;left:0;width:2480px;background:var(--navy)}
+.acc{position:absolute;left:0;width:2480px;background:var(--green)}
+.logo{position:absolute;display:block}
+.tagwrap{position:absolute;right:320px;display:flex;flex-direction:column;align-items:stretch}
+.tag{font-family:"Nunito",sans-serif;font-weight:600;color:var(--grey);white-space:nowrap;text-align:right;letter-spacing:.01em}
+.tagwrap i{display:block;height:4px;background:var(--green);border-radius:2px}
+.gov{position:absolute;right:320px;display:flex;flex-direction:column;align-items:stretch}
+.gov .tag{font-size:46px;line-height:54px}
+.gov i{display:block;height:4px;background:var(--green);border-radius:2px;margin-top:8px}
+.gov .addr{margin-top:16px;text-align:right;font-weight:600;font-size:36px;line-height:42px;color:var(--navy);white-space:nowrap;letter-spacing:.01em}
+</style></head><body data-ready="1">
+
+<!-- GOVERNMENT FIRST PAGE HEADER 2480x500. Like the other government letterheads it prints the business address in the right hand block (Zone B area of LETTERHEAD-SPEC.md is used on purpose). Zone A stays blank. Logo ends above y 350 and before x 1240.
+     Logo: official vector, brand/logos/healthhub-by-medsource-horizontal.svg, wordmark 107px (scale 0.535). -->
+<div class="piece" id="h1" style="height:500px">
+  <div class="bar" style="top:0;height:120px"></div>
+  <div class="acc" style="top:108px;height:12px"></div>
+  <img class="logo" src="../../brand/logos/healthhub-by-medsource-horizontal.svg" style="left:140.39px;top:95.39px;width:1131.85px;height:233.58px" alt="HealthHub by MedSource">
+  <div class="gov" style="top:130px"><div class="tag">Advancing Healthcare Solutions</div><i></i><div class="addr">209 Riverside Drive, Provident Village<br>Marikina City</div></div>
+  <div class="acc" style="top:440px;height:12px"></div>
+  <div class="bar" style="top:440px;height:60px"></div>
+  <div class="acc" style="top:440px;height:12px"></div>
+</div>
+
+<!-- LATER PAGES HEADER 2480x250. Same logo, wordmark 84px (scale 0.420). -->
+<div class="piece" id="h2" style="height:250px">
+  <div class="bar" style="top:0;height:56px"></div>
+  <div class="acc" style="top:48px;height:8px"></div>
+  <img class="logo" src="../../brand/logos/healthhub-by-medsource-horizontal.svg" style="left:148.47px;top:45.47px;width:888.55px;height:183.37px" alt="HealthHub by MedSource">
+  <div class="tagwrap" style="top:91.4px"><div class="tag" style="font-size:46px;line-height:54px">Advancing Healthcare Solutions</div><i style="margin-top:8px"></i></div>
+  <div class="acc" style="top:218px;height:8px"></div>
+  <div class="bar" style="top:226px;height:24px"></div>
+</div>
+
+<!-- FOOTER 2480x250, every page. Text lockup without the mark: brand/logos/healthhub-by-medsource-text.svg, wordmark 84px. -->
+<div class="piece" id="f" style="height:250px">
+  <div class="bar" style="top:0;height:24px"></div>
+  <div class="acc" style="top:24px;height:8px"></div>
+  <img class="logo" src="../../brand/logos/healthhub-by-medsource-text.svg" style="left:152.47px;top:42.47px;width:736.09px;height:162.37px" alt="HealthHub by MedSource">
+  <div class="tagwrap" style="top:77.9px"><div class="tag" style="font-size:46px;line-height:54px">Advancing Healthcare Solutions</div><i style="margin-top:8px"></i></div>
+  <div class="acc" style="top:218px;height:8px"></div>
+  <div class="bar" style="top:226px;height:24px"></div>
+</div>
+</body></html>
