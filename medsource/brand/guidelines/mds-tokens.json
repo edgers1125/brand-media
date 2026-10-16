@@ -1,6 +1,6 @@
 {
   "name": "MDS",
-  "version": 2,
+  "version": 3,
   "color": {
     "note": "Monotone Slate. One soft blue-grey carries the brand; colour comes from the garments in photography, not from graphics.",
     "themes": [
@@ -65,17 +65,12 @@
       {
         "name": "slate-deep",
         "value": "#2E3947",
-        "usage": "Deep panels, dark photo placeholders and the ground for gold foil. White text on it reads at 11.7:1."
+        "usage": "Deep panels, dark photo placeholders and premium packaging stock. White text on it reads at 11.7:1."
       },
       {
         "name": "graphite",
         "value": "#3A3A3C",
         "usage": "Tone-on-tone thread on black fabric only. Never text."
-      },
-      {
-        "name": "gold-foil",
-        "value": "#B8975A",
-        "usage": "Physical foil stamping only (boxes, hang tags, gift cards), on slate-deep stock. Never on-screen text."
       },
       {
         "name": "fabric-slate",

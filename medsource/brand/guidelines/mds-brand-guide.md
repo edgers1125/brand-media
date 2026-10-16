@@ -26,7 +26,6 @@ Files live in [`../logos/mds`](../logos/mds). Use them as they are, never a redr
 | Horizontal | Headers, letterheads, wide formats | `mds-horizontal-slate`, `mds-horizontal-white` |
 | Icon | Avatars, favicons, social sign-offs | `mds-icon`, `mds-icon-white` |
 | Chest mark (icon + MDS, no tagline) | Embroidery and any size below the horizontal minimum | `mds-chest-slate`, `mds-chest-white` |
-| Gold foil | Physical foil stamping on deep slate stock only | `mds-stacked-gold-foil` |
 | Deep teal | Seasonal or limited line only | `mds-stacked-deep-teal` |
 
 - Slate versions on `surface` (white) and `surface-bone`; white versions on slate, `slate-deep`, dark photos and dark fabric.
@@ -47,9 +46,8 @@ Monotone, 90/10: almost everything is `ink` (Slate) on `surface` or `surface-bon
 | `ink-muted` | #646C78 | #C8CFD9 | Eyebrows, captions, secondary text |
 | `on-ink` | #FFFFFF | #3D4A5C | Text on an ink fill |
 | `line` | #DCDFE3 | #56647A | 1 px hairline rules |
-| `slate-deep` | #2E3947 | | Deep panels, gold foil ground |
+| `slate-deep` | #2E3947 | | Deep panels, premium packaging stock |
 | `graphite` | #3A3A3C | | Tone-on-tone thread on black fabric only |
-| `gold-foil` | #B8975A | | Physical foil only, never on screen |
 | `fabric-slate` / `fabric-ceil` / `fabric-black` | #3D4A5C / #8DB3D5 / #1C1C1E | | Colourway swatch chips only |
 
 - Paper theme is the default. Slate theme (white on slate) is for campaigns, social posts and packaging.
@@ -111,10 +109,11 @@ Templates in the design system: Logos, Social post, Story, Poster, Hang tag, Bus
 - **Typographic post**: Slate theme, `accent` word over `display-caps`, white horizontal logo on a hairline at the bottom.
 - **Story**: one product or one portrait, one sentence, one button.
 - **Poster**: photo, `display-caps` headline, one line of `body`, footer on a `line` hairline.
-- **Packaging and tags**: slate stock with the white stacked logo, or `slate-deep` stock with `gold-foil`; details on the reverse in `body-sm`.
+- **Packaging and tags**: slate or `slate-deep` stock with the white stacked logo; details on the reverse in `body-sm`. No foil, no metallics.
 
 ## Decisions log
 
 - 2026-10-03: brand colour moved from black to Slate #3D4A5C (black read too dark). Monotone, no MedSource colours.
 - 2026-10-03: Paper (default) and Slate themes; Jost + Cormorant Garamond Italic accent; square corners.
 - 2026-10-17: guide, tokens, fonts and white icon filed in the repo from the design system.
+- 2026-10-17: gold foil dropped (doesn't fit the monotone brand). Only slate and white anywhere, no metallics; packaging is white on slate or slate-deep.

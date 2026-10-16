@@ -15,6 +15,5 @@ Colour: Slate #3D4A5C. Tagline line is part of the logo. Rules, colours and type
 | `mds-icon` | Avatar, favicon, labels |
 | `mds-icon-white` | Icon, reversed. Social sign-off on slate or photos |
 | `mds-stacked-deep-teal` | Alternate (#2C5F63) for a seasonal or limited line |
-| `mds-stacked-gold-foil` | Gold foil (#B8975A) on deep slate #2E3947, packaging and hang tags only |
 
 The white versions have a transparent background, so they look empty on white. Source design: the "MDS Logo" canvas (Oct 3, 2026) in Claude.
