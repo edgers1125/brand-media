@@ -37,6 +37,7 @@ Everything needed for flyers, tarps, documents and posts. Every logo comes as SV
 
 - [`brand/logos/medsource`](brand/logos/medsource): official MedSource logos (landscape, portrait, icon), full colour and white
 - [`brand/logos/medsource-world`](brand/logos/medsource-world): official MedSource World logo and globe icon, full colour and white
+- [`brand/logos/mds`](brand/logos/mds): MDS Medical Scrubs & Apparel (scrub suit sub-brand) logos, monotone Slate, with white, chest mark, icon and colour alternates. Not tied to the MedSource colours
 - [`brand/logos/signage`](brand/logos/signage): rebalanced logos for big-format signage only (larger wordmark), never for documents or posts
 - [`brand/fonts/poppins`](brand/fonts/poppins): Poppins, the only brand font (Light to Black, with italics; free licence in OFL.txt)
 - [`brand/guidelines`](brand/guidelines): brand guide, publication rules, decisions log and colour/type tokens
