@@ -39,8 +39,9 @@ Everything needed for flyers, tarps, documents and posts. Every logo comes as SV
 - [`brand/logos/medsource-world`](brand/logos/medsource-world): official MedSource World logo and globe icon, full colour and white
 - [`brand/logos/mds`](brand/logos/mds): MDS Medical Scrubs & Apparel (scrub suit sub-brand) logos, monotone Slate, with white, chest mark, icon and colour alternates. Not tied to the MedSource colours
 - [`brand/logos/signage`](brand/logos/signage): rebalanced logos for big-format signage only (larger wordmark), never for documents or posts
-- [`brand/fonts/poppins`](brand/fonts/poppins): Poppins, the only brand font (Light to Black, with italics; free licence in OFL.txt)
-- [`brand/guidelines`](brand/guidelines): brand guide, publication rules, decisions log and colour/type tokens
+- [`brand/fonts/poppins`](brand/fonts/poppins): Poppins, the only MedSource brand font (Light to Black, with italics; free licence in OFL.txt)
+- [`brand/fonts/mds`](brand/fonts/mds): Jost and Cormorant Garamond Italic, MDS only
+- [`brand/guidelines`](brand/guidelines): brand guide, publication rules, decisions log and colour/type tokens; MDS has its own [`mds-brand-guide.md`](brand/guidelines/mds-brand-guide.md) and [`mds-tokens.json`](brand/guidelines/mds-tokens.json) (design system: [MDS](https://claude.ai/artifact/3GncLT8mqmQqy26hmRNCtP))
 
 **Colours:** Forest `#445C44` · Navy `#033F75` · Brand green `#7AB537` · Navy deep `#022A4F` · White `#FFFFFF`
 **Taglines:** Certified #Med**Mura** · Trust us, we've got it Medic**ALL**

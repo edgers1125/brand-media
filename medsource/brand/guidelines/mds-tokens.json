@@ -1,0 +1,299 @@
+{
+  "name": "MDS",
+  "version": 2,
+  "color": {
+    "note": "Monotone Slate. One soft blue-grey carries the brand; colour comes from the garments in photography, not from graphics.",
+    "themes": [
+      {
+        "id": "paper",
+        "name": "Paper"
+      },
+      {
+        "id": "slate",
+        "name": "Slate"
+      }
+    ],
+    "tokens": [
+      {
+        "name": "surface",
+        "value": {
+          "paper": "#FFFFFF",
+          "slate": "#3D4A5C"
+        },
+        "usage": "Default page, canvas and print ground."
+      },
+      {
+        "name": "surface-bone",
+        "value": {
+          "paper": "#F3F1ED",
+          "slate": "#46546A"
+        },
+        "usage": "Warm alternate panel, product backdrops and photo placeholders."
+      },
+      {
+        "name": "ink",
+        "value": {
+          "paper": "#3D4A5C",
+          "slate": "#FFFFFF"
+        },
+        "usage": "Logo, headlines and body text on surface and surface-bone (7.6:1 or more in both themes). Also the fill of primary buttons."
+      },
+      {
+        "name": "ink-muted",
+        "value": {
+          "paper": "#646C78",
+          "slate": "#C8CFD9"
+        },
+        "usage": "Eyebrows, captions and secondary text on surface and surface-bone (4.7:1 or more in both themes)."
+      },
+      {
+        "name": "on-ink",
+        "value": {
+          "paper": "#FFFFFF",
+          "slate": "#3D4A5C"
+        },
+        "usage": "Text on an ink fill: primary buttons and inverted panels. Never use literal white on ink."
+      },
+      {
+        "name": "line",
+        "value": {
+          "paper": "#DCDFE3",
+          "slate": "#56647A"
+        },
+        "usage": "1px hairline rules between sections. Decorative only, never the sole cue."
+      },
+      {
+        "name": "slate-deep",
+        "value": "#2E3947",
+        "usage": "Deep panels, dark photo placeholders and the ground for gold foil. White text on it reads at 11.7:1."
+      },
+      {
+        "name": "graphite",
+        "value": "#3A3A3C",
+        "usage": "Tone-on-tone thread on black fabric only. Never text."
+      },
+      {
+        "name": "gold-foil",
+        "value": "#B8975A",
+        "usage": "Physical foil stamping only (boxes, hang tags, gift cards), on slate-deep stock. Never on-screen text."
+      },
+      {
+        "name": "fabric-slate",
+        "value": "#3D4A5C",
+        "usage": "Colour swatch chip for the Slate colourway. Product colour, never brand graphics."
+      },
+      {
+        "name": "fabric-ceil",
+        "value": "#8DB3D5",
+        "usage": "Colour swatch chip for the Ceil Blue colourway. Product colour, never brand graphics."
+      },
+      {
+        "name": "fabric-black",
+        "value": "#1C1C1E",
+        "usage": "Colour swatch chip for the Black colourway. Product colour, never brand graphics."
+      }
+    ]
+  },
+  "type": {
+    "fonts": [
+      {
+        "family": "Jost",
+        "file": "../fonts/mds/Jost-Variable.woff2",
+        "weight": "100 900",
+        "style": "normal"
+      },
+      {
+        "family": "Cormorant Garamond",
+        "file": "../fonts/mds/CormorantGaramond-Italic-Variable.woff2",
+        "weight": "300 700",
+        "style": "italic"
+      }
+    ],
+    "families": {
+      "sans": "\"Jost\", \"Futura\", \"Century Gothic\", sans-serif",
+      "serif": "\"Cormorant Garamond\", \"Garamond\", serif"
+    },
+    "groups": [
+      {
+        "name": "Display",
+        "family": "sans",
+        "note": "Jost carries the whole brand. Uppercase is always tracked; sentence case never is.",
+        "styles": [
+          {
+            "name": "display-caps",
+            "fontSize": "64px",
+            "lineHeight": "68px",
+            "fontWeight": 600,
+            "letterSpacing": "0.12em",
+            "sample": "BUILT FOR THE LONG SHIFT",
+            "usage": "Campaign headlines and covers. Uppercase, five words or fewer, same weight and tracking as the wordmark. Scale up on large canvases (76px on a 1080px post)."
+          },
+          {
+            "name": "headline",
+            "fontSize": "44px",
+            "lineHeight": "50px",
+            "fontWeight": 500,
+            "letterSpacing": "-0.005em",
+            "sample": "Made to move with you.",
+            "usage": "Sentence-case headlines longer than five words: web heroes, product pages, stories."
+          },
+          {
+            "name": "title",
+            "fontSize": "26px",
+            "lineHeight": "32px",
+            "fontWeight": 500,
+            "sample": "V-Neck Top",
+            "usage": "Section titles and product names."
+          }
+        ]
+      },
+      {
+        "name": "Text",
+        "family": "sans",
+        "styles": [
+          {
+            "name": "body",
+            "fontSize": "17px",
+            "lineHeight": "27px",
+            "fontWeight": 400,
+            "sample": "Premium scrubs with a clean V-neck and pockets where your hands go.",
+            "usage": "Paragraphs and product descriptions, in ink or ink-muted."
+          },
+          {
+            "name": "body-sm",
+            "fontSize": "14px",
+            "lineHeight": "22px",
+            "fontWeight": 400,
+            "sample": "Slate · Regular fit · Sizes XS to 3XL",
+            "usage": "Product details, captions, legal and hang-tag copy."
+          },
+          {
+            "name": "eyebrow",
+            "fontSize": "12px",
+            "lineHeight": "16px",
+            "fontWeight": 500,
+            "letterSpacing": "0.2em",
+            "sample": "NEW · THE CORE SET",
+            "usage": "Labels above headlines, navigation and the tagline. Always uppercase, in ink-muted or ink."
+          },
+          {
+            "name": "button",
+            "fontSize": "14px",
+            "lineHeight": "20px",
+            "fontWeight": 500,
+            "letterSpacing": "0.14em",
+            "sample": "SHOP SCRUBS",
+            "usage": "Buttons and call-to-action links. Always uppercase."
+          }
+        ]
+      },
+      {
+        "name": "Accent",
+        "family": "serif",
+        "note": "One accent per layout, at most.",
+        "styles": [
+          {
+            "name": "accent",
+            "fontSize": "56px",
+            "lineHeight": "60px",
+            "fontWeight": 400,
+            "fontStyle": "italic",
+            "sample": "quietly",
+            "usage": "One emphasised word or a short pull quote beside display-caps. Lowercase or sentence case; never body copy, never uppercase."
+          }
+        ]
+      }
+    ]
+  },
+  "spacing": {
+    "note": "8px base. Generous margins are the premium signal.",
+    "tokens": [
+      {
+        "name": "space-1",
+        "value": "8px",
+        "usage": "Icon-to-label gaps, swatch gaps."
+      },
+      {
+        "name": "space-2",
+        "value": "16px",
+        "usage": "Eyebrow to headline."
+      },
+      {
+        "name": "space-3",
+        "value": "24px",
+        "usage": "Between paragraphs; card padding."
+      },
+      {
+        "name": "space-4",
+        "value": "32px",
+        "usage": "Headline to body; button padding (horizontal)."
+      },
+      {
+        "name": "space-6",
+        "value": "48px",
+        "usage": "Between sections."
+      },
+      {
+        "name": "space-8",
+        "value": "64px",
+        "usage": "Outer margin on screens and 1080px social canvases (80px on 1080×1350 posts)."
+      },
+      {
+        "name": "space-12",
+        "value": "96px",
+        "usage": "Outer margin on print, posters and web heroes."
+      }
+    ]
+  },
+  "radius": {
+    "note": "Square-cornered. Softness comes from space and colour, not radii.",
+    "tokens": [
+      {
+        "name": "radius-0",
+        "value": "0px",
+        "usage": "Default for photos, panels, cards and buttons."
+      },
+      {
+        "name": "radius-sm",
+        "value": "2px",
+        "usage": "Inputs and tags."
+      },
+      {
+        "name": "radius-full",
+        "value": "9999px",
+        "usage": "Colour swatch chips and size selectors only."
+      }
+    ]
+  },
+  "logo": {
+    "note": "Clear space and minimum sizes for every lockup.",
+    "tokens": [
+      {
+        "name": "logo-clearspace",
+        "value": "33%",
+        "usage": "Clear space on all sides = one cross arm, about a third of the icon's width."
+      },
+      {
+        "name": "logo-min-stacked",
+        "value": "120px",
+        "usage": "Smallest stacked lockup on screen (25mm in print)."
+      },
+      {
+        "name": "logo-min-horizontal",
+        "value": "160px",
+        "usage": "Smallest horizontal lockup on screen (35mm in print). Below this, use the chest mark."
+      },
+      {
+        "name": "logo-min-icon",
+        "value": "24px",
+        "usage": "Smallest icon on screen (6mm in print)."
+      },
+      {
+        "name": "chest-mark-width",
+        "value": "80mm",
+        "usage": "Left-chest embroidery width, 75 to 90mm. Thread: white on dark fabric, slate on light fabric, graphite tone-on-tone on black."
+      }
+    ]
+  },
+  "source": "https://claude.ai/artifact/3GncLT8mqmQqy26hmRNCtP"
+}
