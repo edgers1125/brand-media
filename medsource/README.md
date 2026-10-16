@@ -8,6 +8,10 @@ Every MedSource publication in one place: social posts, signage and print, plus 
 
 | Date | Publication | Branch | Status | Preview |
 | --- | --- | --- | --- | --- |
+| Oct 25, 2026 | [One Outlet Recap](posts/2026-10-25-one-outlet-recap/post.md) | Digital sales | Draft | <img src="posts/2026-10-25-one-outlet-recap/feed-1080x1350.png" width="120"> |
+| Oct 23, 2026 | [Accredited](posts/2026-10-23-accreditations/post.md) | Digital sales | Draft | <img src="posts/2026-10-23-accreditations/feed-1080x1350.png" width="120"> |
+| Oct 21, 2026 | [Wholesale for Clinics](posts/2026-10-21-wholesale-clinics/post.md) | Digital sales | Draft | <img src="posts/2026-10-21-wholesale-clinics/feed-1080x1350.png" width="120"> |
+| Oct 19, 2026 | [How to Order](posts/2026-10-19-how-to-order/post.md) | Digital sales | Draft | <img src="posts/2026-10-19-how-to-order/feed-1080x1350.png" width="120"> |
 | Oct 12, 2026 | [Facebook Cover: #MedMura is now in the Philippines](posts/2026-10-12-facebook-cover/post.md) | Digital sales | Approved | <img src="posts/2026-10-12-facebook-cover/facebook-cover-1640x624.png" width="120"> |
 | Oct 13, 2026 | [Medicines](posts/2026-10-13-medicines/post.md) | Digital sales | Scheduled | <img src="posts/2026-10-13-medicines/feed-1080x1350.png" width="120"> |
 | Oct 11, 2026 | [Devices & Equipment](posts/2026-10-11-devices-equipment/post.md) | Digital sales | Scheduled | <img src="posts/2026-10-11-devices-equipment/feed-1080x1350.png" width="120"> |
