@@ -5,7 +5,7 @@
 | Date | Oct 19, 2026 |
 | Type | Social post |
 | Branch | None (digital sales, 0906 299 3555) |
-| Status | Draft, awaiting approval |
+| Status | Scheduled in Metricool |
 | Design | HTML source in [`source/`](source/), rendered with the MedSource Design System |
 
 How ordering works: message or call, ask for a quotation, then in-store pickup or nationwide shipping. Navy ground scheme. Part of the Oct 2026 plan, week 3 (no promos).
@@ -14,11 +14,11 @@ How ordering works: message or call, ask for a quotation, then in-store pickup o
 
 | Platform | When | Status |
 | --- | --- | --- |
-| Facebook feed | Mon Oct 19, 10:00 AM | Not scheduled yet |
-| Instagram feed | Mon Oct 19, 7:00 PM | Not scheduled yet |
-| FB + IG story | Mon Oct 19, 7:30 PM | Not scheduled yet |
+| [Facebook feed](https://app.metricool.com/planner/calendar?blogId=7293138&openWithPostUuid=-309524450622288483) | Mon Oct 19, 10:00 AM | Scheduled in Metricool |
+| [Instagram feed](https://app.metricool.com/planner/calendar?blogId=7293138&openWithPostUuid=-3625123776157036605) | Mon Oct 19, 7:00 PM | Scheduled in Metricool |
+| [FB + IG story](https://app.metricool.com/planner/calendar?blogId=7293138&openWithPostUuid=7919419206615976453) | Mon Oct 19, 7:30 PM | Scheduled in Metricool |
 
-Times follow the week 1 pattern (Facebook 10 AM, Instagram 7 PM, story 7:30 PM). Scheduled in Metricool only after approval.
+Times follow the week 1 pattern (Facebook 10 AM, Instagram 7 PM, story 7:30 PM). Approved by EJ and scheduled in Metricool on Oct 16.
 
 ## Images
 
