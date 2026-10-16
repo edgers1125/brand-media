@@ -3,3 +3,5 @@ MedPlace logo, vectorized from the supplied 1200px PNG (flat colour SVG, transpa
 - `medplace.svg`: full logo (mark, wordmark, Medical Supplies & Pharma)
 
 The orange gradient in the original is flattened to the solid logo orange #FC9403. Do not redraw the mark; if the designer has the original vector file, replace this.
+
+Viber profile logos (square, circle-safe) live in `viber/`, separate from these files.
