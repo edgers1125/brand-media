@@ -5,7 +5,7 @@
 | Date | Oct 25, 2026 |
 | Type | Social post |
 | Branch | None (digital sales, 0906 299 3555) |
-| Status | Approved |
+| Status | Scheduled in Metricool |
 | Design | HTML source in [`source/`](source/), rendered with the MedSource Design System |
 
 Recap of the four categories (devices, supplies, equipment, medicines) with real store photos. Cream ground with forest band, tagline "We're the SOURCE for ALL your medical needs." and 2x2 tiles (new tile photos pending from EJ).
@@ -14,11 +14,11 @@ Recap of the four categories (devices, supplies, equipment, medicines) with real
 
 | Platform | When | Status |
 | --- | --- | --- |
-| Facebook feed | Sun Oct 25, 10:00 AM | Not scheduled yet |
-| Instagram feed | Sun Oct 25, 7:00 PM | Not scheduled yet |
-| FB + IG story | Sun Oct 25, 7:30 PM | Not scheduled yet |
+| [Facebook feed](https://app.metricool.com/planner/calendar?blogId=7293138&openWithPostUuid=2864058759734315575) | Sun Oct 25, 10:00 AM | Scheduled in Metricool |
+| [Instagram feed](https://app.metricool.com/planner/calendar?blogId=7293138&openWithPostUuid=3324443148250596509) | Sun Oct 25, 7:00 PM | Scheduled in Metricool |
+| [FB + IG story](https://app.metricool.com/planner/calendar?blogId=7293138&openWithPostUuid=5113616360823147343) | Sun Oct 25, 7:30 PM | Scheduled in Metricool |
 
-Times follow the week 1 pattern (Facebook 10 AM, Instagram 7 PM, story 7:30 PM). Scheduled in Metricool only after approval.
+Times follow the week 1 pattern (Facebook 10 AM, Instagram 7 PM, story 7:30 PM). Approved by EJ and scheduled in Metricool on Oct 16.
 
 ## Images
 

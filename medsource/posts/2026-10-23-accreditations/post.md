@@ -5,7 +5,7 @@
 | Date | Oct 23, 2026 |
 | Type | Social post |
 | Branch | Sta. Lucia Mall (0967 325 3555, sales.stalucia@medsource.com.ph) |
-| Status | Approved |
+| Status | Scheduled in Metricool |
 | Design | HTML source in [`source/`](source/), rendered with the MedSource Design System |
 
 PhilHealth YAKAP Gamot and DSWD Guarantee Letter (AICS) accreditation for the Sta. Lucia Mall branch. Full forest scheme, with the YAKAP Gamot and AICS GL lockups from the Facebook cover.
@@ -14,11 +14,11 @@ PhilHealth YAKAP Gamot and DSWD Guarantee Letter (AICS) accreditation for the St
 
 | Platform | When | Status |
 | --- | --- | --- |
-| Facebook feed | Fri Oct 23, 10:00 AM | Not scheduled yet |
-| Instagram feed | Fri Oct 23, 7:00 PM | Not scheduled yet |
-| FB + IG story | Fri Oct 23, 7:30 PM | Not scheduled yet |
+| [Facebook feed](https://app.metricool.com/planner/calendar?blogId=7293138&openWithPostUuid=-3222192908846087919) | Fri Oct 23, 10:00 AM | Scheduled in Metricool |
+| [Instagram feed](https://app.metricool.com/planner/calendar?blogId=7293138&openWithPostUuid=-7247667761933564200) | Fri Oct 23, 7:00 PM | Scheduled in Metricool |
+| [FB + IG story](https://app.metricool.com/planner/calendar?blogId=7293138&openWithPostUuid=-8372751278074281379) | Fri Oct 23, 7:30 PM | Scheduled in Metricool |
 
-Times follow the week 1 pattern (Facebook 10 AM, Instagram 7 PM, story 7:30 PM). Scheduled in Metricool only after approval.
+Times follow the week 1 pattern (Facebook 10 AM, Instagram 7 PM, story 7:30 PM). Approved by EJ and scheduled in Metricool on Oct 16.
 
 ## Images
 
