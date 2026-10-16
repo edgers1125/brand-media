@@ -4,11 +4,11 @@
 | --- | --- |
 | Date | Oct 23, 2026 |
 | Type | Social post |
-| Branch | None (digital sales, 0906 299 3555) |
-| Status | Draft, awaiting approval |
+| Branch | Sta. Lucia Mall (0967 325 3555, sales.stalucia@medsource.com.ph) |
+| Status | Approved |
 | Design | HTML source in [`source/`](source/), rendered with the MedSource Design System |
 
-PhilHealth YAKAP Gamot and DSWD Guarantee Letter (AICS) accreditation, digital sales version. Full forest scheme, text and icons only (no government logos).
+PhilHealth YAKAP Gamot and DSWD Guarantee Letter (AICS) accreditation for the Sta. Lucia Mall branch. Full forest scheme, with the YAKAP Gamot and AICS GL lockups from the Facebook cover.
 
 ## Schedule
 
@@ -33,7 +33,9 @@ Yes, we are officially legit. ✅😉
 
 MedSource is PhilHealth YAKAP Gamot accredited and DSWD Guarantee Letter (AICS) accredited. 🏥
 
-Send us your request and we will take it from there. 💚
+Send us your request or drop by our Sta. Lucia Mall branch and we will take it from there. 💚
+
+MedSource Medical Supplies (Ground Level, Sta Lucia Mall Building 1 Felix Avenue, San Isidro, Cainta Rizal)
 
 MESSAGE NOW The ALL-IN-ONE Medical Outlet has YOU covered!
 Available for IN-STORE PICKUP and NATIONWIDE SHIPPING!
@@ -49,7 +51,7 @@ Yes, we are officially legit. ✅😉
 
 MedSource is PhilHealth YAKAP Gamot accredited and DSWD Guarantee Letter (AICS) accredited. 🏥
 
-Send us your request and we will take it from there. 💚
+Send us your request or drop by our Sta. Lucia Mall branch and we will take it from there. 💚
 
 DM NOW The ALL-IN-ONE Medical Outlet has YOU covered!
 Available for IN-STORE PICKUP and NATIONWIDE SHIPPING!

@@ -5,10 +5,10 @@
 | Date | Oct 25, 2026 |
 | Type | Social post |
 | Branch | None (digital sales, 0906 299 3555) |
-| Status | Draft, awaiting approval |
+| Status | Approved |
 | Design | HTML source in [`source/`](source/), rendered with the MedSource Design System |
 
-Recap of the four categories (devices, supplies, equipment, medicines) with real store photos. Cream ground with forest band and 2x2 tiles. The fifth slot was my pick, swap it if you prefer another topic.
+Recap of the four categories (devices, supplies, equipment, medicines) with real store photos. Cream ground with forest band, tagline "We're the SOURCE for ALL your medical needs." and 2x2 tiles (new tile photos pending from EJ).
 
 ## Schedule
 

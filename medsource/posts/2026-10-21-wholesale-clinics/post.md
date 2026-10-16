@@ -5,10 +5,10 @@
 | Date | Oct 21, 2026 |
 | Type | Social post |
 | Branch | None (digital sales, 0906 299 3555) |
-| Status | Draft, awaiting approval |
+| Status | Approved |
 | Design | HTML source in [`source/`](source/), rendered with the MedSource Design System |
 
-Bulk supply for clinics and hospitals, quotations by email. White ground with forest band and the real store photo of wheelchairs and supply shelves.
+Bulk supply for clinics and hospitals, quotations by email. White ground with forest band and the hospital bed photo (clinic and hospital photos pending from EJ).
 
 ## Schedule
 
