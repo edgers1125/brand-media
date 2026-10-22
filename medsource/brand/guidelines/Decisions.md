@@ -33,3 +33,9 @@
 - Landscape: wordmark block ≈ 2/3 of icon height (was ≈ 1/2), centred on the icon.
 - Portrait: wordmark ≈ 2× icon width (was ≈ 1.6×).
 - Icons alone unchanged. These replace the previous files everywhere.
+
+## 2026-10-22 · Warehouse window sticker v2 approved
+- Phone number removed from window signage; panel 3 now shows the PhilHealth YAKAP and DSWD AICS GL accreditations, store hours and the entrance arrow.
+- Admin dropped #MedMura from the wall. New panel 1 hook: "NANDITO ANG / PRESYONG / **PAMPAGALING**" (one green pill), supporting line "Hospital-grade quality. Direct from the importer."
+- Full version (Style A) now uses the minimal-band colours: forest footers, no navy band; category tiles enlarged.
+- Government logos allowed on signage only as proof of accreditation; DSWD logo redrawn as vector in `logos/accreditation/`.

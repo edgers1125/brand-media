@@ -35,8 +35,11 @@ Two approved styles, both on the warehouse wall (3 panels: 35.24 × 44.84 in, 35
 Rules for both:
 - **Key content in the top ~70%** — the bottom third is hidden by planters, cars and people.
 - Bands, stripes and baselines **continue across panels** at the same heights; design the wall, then cut it.
-- **No QR codes, fine print or product photos** — they can't be read from the street. The phone number is the biggest thing on the last panel.
-- The last panel always points toward the entrance (arrow) and says how to reach us (call / text, store hours).
+- **No QR codes, fine print or product photos**: they can't be read from the street.
+- **No phone number on window signage** (from Oct 2026). The last panel carries the accreditations instead: "ACCREDITED BY" with a PhilHealth YAKAP card (GAMOT ACCREDITED pill) and a DSWD card (DSWD logo, small "AICS", big "DSWD GL", ACCREDITED pill). Pills are yellow #FFB700 with navy text, cards are white on forest.
+- The last panel always points toward the entrance (arrow) and shows store hours ("Visit us here", open daily 10 AM to 9 PM).
+- **Signage exception to the no-government-logo rule:** the PhilHealth YAKAP and DSWD logos may be used on signage and accreditation pieces, only as proof of a real accreditation. Use the vector DSWD logo in `logos/accreditation/`.
+- Approved full-version colours (Oct 2026): forest footers instead of navy, the panel 3 "Visit us here" sits on a white strip in navy, and #MedMura is not used on the wall (panel 1 footer reads "Certified & Accredited").
 - Big-format logos may be **rebalanced for signage only** (larger wordmark against the icon) — never for the official logo files.
 - Print on white-backed vinyl so colours stay true on glass.
 
