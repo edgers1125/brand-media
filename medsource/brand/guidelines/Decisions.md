@@ -39,3 +39,6 @@
 - Admin dropped #MedMura from the wall. New panel 1 hook: "NANDITO ANG / PRESYONG / **PAMPAGALING**" (one green pill), supporting line "Hospital-grade quality. Direct from the importer."
 - Full version (Style A) now uses the minimal-band colours: forest footers, no navy band; category tiles enlarged.
 - Government logos allowed on signage only as proof of accreditation; DSWD logo redrawn as vector in `logos/accreditation/`.
+
+## 2026-10-23 · PhilHealth YAKAP logo vectorized
+- PhilHealth wordmark rebuilt from Poppins Bold outlines; YAKAP wordmark smooth-traced (custom lettering). Wordmarks, stacked lockup and "Gamot Accredited" badge filed as SVG + 2000 px PNG in `logos/accreditation/`. Use these instead of the raster crops in old post sources.

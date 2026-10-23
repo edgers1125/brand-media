@@ -27,4 +27,4 @@ Full version (Style A) in the minimal-band colours. Three panels read left to ri
 | 3 | 16.57 × 44.84 in | [JPG](medsource-window-panel-3-16.57x44.84in-150dpi.jpg) | [PDF](panel-3-16.57x44.84in.pdf) |
 | Full wall | 87.05 × 44.84 in | [JPG](medsource-window-full-wall-87.05x44.84in-150dpi.jpg) | (reference only, print per panel) |
 
-PDFs keep text and shapes as vectors (Poppins embedded) and the DSWD logo as a vector. The PhilHealth YAKAP logo is still a small raster; swap in an official high-resolution file before a very close-view print.
+PDFs keep text and shapes as vectors (Poppins embedded) and the DSWD logo as a vector. The PhilHealth YAKAP logo in these files is still the old small raster; for any reprint, swap in the vector `brand/logos/accreditation/philhealth-yakap-gamot-accredited.svg`.
