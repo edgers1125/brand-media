@@ -4,7 +4,7 @@
 | --- | --- |
 | Date | Oct 27, 2026 |
 | Type | Social post (#MedMura MAX month-end promo) |
-| Branch | None (digital sales, 0906 299 3555) |
+| Branch | Sta. Lucia Mall (0967 325 3555, sales.stalucia@medsource.com.ph) |
 | Status | Scheduled in Metricool |
 | Design | HTML source in [`source/`](source/), rendered with the MedSource Design System. Generator: `2026-10-27-medmura-max-katinko/source/generate.py` |
 
@@ -32,25 +32,29 @@ Sakit ng ulo, likod o katawan? Katinko na, sulit pa! 🌿😌
 Our MedMura MAX Month-End Sale brings your Katinko favorites at up to 35% OFF: Liniment Oil from ₱168 and Ointments from ₱48. 🔥
 Peppermint, Ginger + Patchouli and Soft White, all in stock while supplies last! 🛒
 
+MedSource Medical Supplies (Ground Level, Sta Lucia Mall Building 1 Felix Avenue, San Isidro, Cainta Rizal)
+
 MESSAGE NOW The ALL-IN-ONE Medical Outlet has YOU covered!
 Available for IN-STORE PICKUP and NATIONWIDE SHIPPING!
 Call or Message us for RETAIL or WHOLESALE!
-📞 0906 299 3555 | 📧 sales.quotations@medsource.com.ph
+📞 0967 325 3555 | 📧 sales.stalucia@medsource.com.ph
 
 #MedMuraMAX #medmura #medsource #medicalsupplies #pharmacy #medicalequipment #Philippines #allinonemed #MedMuraDito
 ```
 
-## Instagram caption
+## Instagram caption (not used: FB + IG run as one post with the Facebook caption)
 
 ```
 Sakit ng ulo, likod o katawan? Katinko na, sulit pa! 🌿😌
 Our MedMura MAX Month-End Sale brings your Katinko favorites at up to 35% OFF: Liniment Oil from ₱168 and Ointments from ₱48. 🔥
 Peppermint, Ginger + Patchouli and Soft White, all in stock while supplies last! 🛒
 
+MedSource Medical Supplies (Ground Level, Sta Lucia Mall Building 1 Felix Avenue, San Isidro, Cainta Rizal)
+
 DM us now. The ALL-IN-ONE Medical Outlet has YOU covered!
 Available for IN-STORE PICKUP and NATIONWIDE SHIPPING!
 Call or DM us for RETAIL or WHOLESALE!
-📞 0906 299 3555 | 📧 sales.quotations@medsource.com.ph
+📞 0967 325 3555 | 📧 sales.stalucia@medsource.com.ph
 
 #MedMuraMAX #medmura #medsource #medicalsupplies #pharmacy #medicalequipment #Philippines #allinonemed #MedMuraDito
 ```

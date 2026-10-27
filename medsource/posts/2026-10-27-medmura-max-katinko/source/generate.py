@@ -1,7 +1,7 @@
 import pathlib, sys
 from playwright.sync_api import sync_playwright
 
-ROOT = pathlib.Path("/tmp/claude-0/-home-claude/d9907e7c-962a-55f1-92fd-0136ee14e247/scratchpad/staging")
+ROOT = pathlib.Path("/home/claude/brand-media/medsource/posts")
 FOREST, NAVY, NAVYD, GREEN, SAGE, TINT, CREAM, INK, SLATE, RED = (
     "#445C44", "#033F75", "#022A4F", "#7AB537", "#527354", "#E9EFE6", "#FFFDF8", "#1B161F", "#5A6470", "#C62828")
 
@@ -13,7 +13,7 @@ def pct(old, new):
     return round((1 - new / old) * 100)
 
 PUBS = [
- dict(slug="2026-10-28-medmura-max-katinko", l1="KATINKO", l2="FAVORITES",
+ dict(slug="2026-10-27-medmura-max-katinko", l1="KATINKO", l2="FAVORITES",
       sub="Ginhawa sa presyong #MedMura.", layout="rows", scheme="forest", burst=("UP TO","35%","OFF"),
       items=[("Katinko Liniment Oil", "Peppermint · 35ml", 210, 168),
              ("Katinko Liniment Oil", "Ginger + Patchouli · 35ml", 210, 168),
@@ -168,10 +168,12 @@ def build(pub, story):
     # footer
     fine = "Promo valid while stocks last." if L != "rx" else "Limited stocks only."
     h.append(f'<div style="height:10px;background:{GREEN}"></div>'
-             f'<div style="background:{s["foot"]};color:#fff;padding:{26 if story else 22}px 64px {120 if story else 28}px;display:flex;justify-content:space-between;align-items:center">'
-             f'<div><div style="font-size:{30 if story else 28}px;font-weight:700">0906 299 3555</div>'
-             f'<div style="font-size:{21 if story else 19}px">sales.quotations@medsource.com.ph</div>'
-             f'<div style="font-size:{18 if story else 16}px;opacity:.8;margin-top:4px">{fine}</div></div>'
+             f'<div style="background:{s["foot"]};color:#fff;padding:{26 if story else 16}px 64px {120 if story else 20}px;display:flex;justify-content:space-between;align-items:center">'
+             f'<div><div style="font-size:{17 if story else 15}px;font-weight:600;letter-spacing:.18em;color:{GREEN}">VISIT OR MESSAGE US</div>'
+             f'<div style="font-size:{28 if story else 25}px;font-weight:700;margin-top:2px">MedSource &middot; Sta. Lucia Mall</div>'
+             f'<div style="font-size:{19 if story else 17}px">Unit G1-21, Ground Level, Sta Lucia Mall Bldg 1, Felix Ave., Cainta, Rizal</div>'
+             f'<div style="font-size:{19 if story else 17}px">0967 325 3555 &middot; sales.stalucia@medsource.com.ph</div>'
+             f'<div style="font-size:{16 if story else 14}px;opacity:.8;margin-top:2px">{fine}</div></div>'
              f'<div style="text-align:right;font-weight:700;font-size:{32 if story else 28}px;line-height:1.1">'
              f'<span style="font-weight:400;font-size:.62em">Certified</span><br>#Med<span style="color:{GREEN}">Mura</span></div></div>')
     h.append('</div></body></html>')
