@@ -15,7 +15,7 @@ All five #MedMura MAX month-end pubs posted together as one carousel. Prices com
 | Platform | When | Status |
 | --- | --- | --- |
 | [FB + IG carousel](https://app.metricool.com/planner/calendar?blogId=7293138&openWithPostUuid=-913691705336118992) | Tue Oct 27, 4:00 PM | Scheduled in Metricool |
-| FB + IG stories (5, one per slide) | Tue Oct 27, 4:00 PM | Scheduled in Metricool |
+| FB + IG stories (5, in slide order) | Tue Oct 27, 4:00 to 4:04 PM | Scheduled in Metricool |
 
 Approved by EJ on Oct 27.
 
