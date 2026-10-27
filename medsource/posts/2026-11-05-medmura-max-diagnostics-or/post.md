@@ -14,8 +14,7 @@ Glucose and urine test strips, lap sponges and endotracheal tubes at up to 35% o
 
 | Platform | When | Status |
 | --- | --- | --- |
-| Facebook feed | Thu Nov 5, 10:00 AM | Scheduled in Metricool |
-| Instagram feed | Thu Nov 5, 7:00 PM | Scheduled in Metricool |
+| FB + IG feed (one post) | Thu Nov 5, 7:00 PM | Scheduled in Metricool |
 | FB + IG story | Thu Nov 5, 7:30 PM | Scheduled in Metricool |
 
 Approved by EJ on Oct 27.

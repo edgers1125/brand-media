@@ -14,8 +14,7 @@ Syringes, needles, citrate tubes and alcohol pads at up to 35% off. Prices come 
 
 | Platform | When | Status |
 | --- | --- | --- |
-| Facebook feed | Mon Nov 2, 10:00 AM | Scheduled in Metricool |
-| Instagram feed | Mon Nov 2, 7:00 PM | Scheduled in Metricool |
+| FB + IG feed (one post) | Mon Nov 2, 7:00 PM | Scheduled in Metricool |
 | FB + IG story | Mon Nov 2, 7:30 PM | Scheduled in Metricool |
 
 Approved by EJ on Oct 27.

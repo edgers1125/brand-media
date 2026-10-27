@@ -14,8 +14,7 @@ First #MedMura MAX month-end pub. Five Katinko liniments and ointments at up to 
 
 | Platform | When | Status |
 | --- | --- | --- |
-| Facebook feed | Tue Oct 27, 2:50 PM | Scheduled in Metricool |
-| Instagram feed | Tue Oct 27, 2:50 PM | Scheduled in Metricool |
+| FB + IG feed (one post) | Tue Oct 27, 2:50 PM | Scheduled in Metricool |
 | FB + IG story | Tue Oct 27, 2:55 PM | Scheduled in Metricool |
 
 Approved by EJ on Oct 27.

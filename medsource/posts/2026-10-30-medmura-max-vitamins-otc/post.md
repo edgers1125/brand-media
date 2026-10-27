@@ -14,8 +14,7 @@ Five vitamins and OTC items at up to 40% off. Posted early because Tiki Tiki exp
 
 | Platform | When | Status |
 | --- | --- | --- |
-| Facebook feed | Fri Oct 30, 10:00 AM | Scheduled in Metricool |
-| Instagram feed | Fri Oct 30, 7:00 PM | Scheduled in Metricool |
+| FB + IG feed (one post) | Fri Oct 30, 7:00 PM | Scheduled in Metricool |
 | FB + IG story | Fri Oct 30, 7:30 PM | Scheduled in Metricool |
 
 Approved by EJ on Oct 27.
