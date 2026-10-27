@@ -14,8 +14,8 @@ All five #MedMura MAX month-end pubs posted together as one carousel. Prices com
 
 | Platform | When | Status |
 | --- | --- | --- |
-| [FB + IG carousel](https://app.metricool.com/planner/calendar?blogId=7293138&openWithPostUuid=-913691705336118992) | Tue Oct 27, 2:50 PM | Scheduled in Metricool |
-| FB + IG stories (5, one per slide) | Tue Oct 27, 2:55 to 2:59 PM | Scheduled in Metricool |
+| [FB + IG carousel](https://app.metricool.com/planner/calendar?blogId=7293138&openWithPostUuid=-913691705336118992) | Tue Oct 27, 4:00 PM | Scheduled in Metricool |
+| FB + IG stories (5, one per slide) | Tue Oct 27, 4:00 PM | Scheduled in Metricool |
 
 Approved by EJ on Oct 27.
 
@@ -33,9 +33,16 @@ Approved by EJ on Oct 27.
 
 ```
 Month-end na, MedMura MAX na! 🔥💚
-Our most intense #MedMura deals are here: up to 40% OFF on Katinko favorites, vitamins and OTC picks, clinic supplies, test strips and OR essentials. 🛒
-Clinics, hospitals and pharmacies, ask us about MedMura MAX wholesale rates on Rx medicines too. Rx items are dispensed with a valid prescription. 🏥
-Swipe to see all the deals 👉 while stocks last! ⏳
+
+Our most intense #MedMura deals are here: up to 40% OFF across 5 categories. Swipe to see them all 👉
+
+🌿 Katinko Favorites: Liniment Oil ₱168, Ointments from ₱48
+💊 Vitamins & OTC: Tiki Tiki Drops ₱51, Omega-3 ₱7.20, Flotera ₱21
+💉 Clinic Supplies: syringes, needles, citrate tubes and alcohol pads up to 35% OFF
+🧪 Test Strips & OR: Easy Touch glucose strips ₱880.60, Surgitech urine strips ₱777
+🏥 For Clinics & Hospitals: MedMura MAX wholesale rates on Rx medicines (dispensed with a valid prescription)
+
+Promo valid while stocks last! ⏳
 
 MedSource Medical Supplies (Ground Level, Sta Lucia Mall Building 1 Felix Avenue, San Isidro, Cainta Rizal)
 
