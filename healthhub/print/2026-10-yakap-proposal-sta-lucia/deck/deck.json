@@ -1,0 +1,23 @@
+{
+  "v": 4,
+  "createdOnFiles": {"v": 1, "at": "2026-10-27T07:30:00Z"},
+  "lists": "css",
+  "title": "YAKAP Proposal Sta Lucia Mall",
+  "order": ["cover", "yakap", "medsource", "mdsource", "journey", "summary", "services", "diagnostics", "assurance", "stalucia", "clients-private", "clients-gov", "financial", "caravan", "requests", "team", "founder", "interior", "r-lobby1", "r-lobby2", "r-lobby3", "r-rehab1", "r-rehab2", "r-hall1", "r-hall2", "r-extraction", "r-exam", "r-doctor", "r-xray", "r-lab1", "r-lab2", "conclusion", "thanks"],
+  "sections": {
+    "s1": {"description": "The YAKAP proposal for Sta. Lucia Mall and the YAKAP program", "start": "cover"},
+    "s2": {"description": "Who we are: MedSource, MedSource HealthHub and its brand M.D. Source", "start": "medsource"},
+    "s3": {"description": "The proposal: one-stop YAKAP center, services and why Sta. Lucia Mall", "start": "summary"},
+    "s4": {"description": "Track record: clients, financial reliability and community caravans", "start": "clients-private"},
+    "s5": {"description": "Partnership requests and the team behind it", "start": "requests"},
+    "s6": {"description": "The space: interior concept and renders", "start": "interior"},
+    "s7": {"description": "Conclusion and contact", "start": "conclusion"}
+  },
+  "faces": {
+    "quicksand": {"family": "Quicksand", "href": "https://fonts.googleapis.com/css2?family=Quicksand:wght@600;700&display=swap"},
+    "nunito": {"family": "Nunito", "href": "https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap"}
+  },
+  "designSystems": [
+    {"title": "MedSource HealthHub", "namespace": "medsource-healthhub", "artifact": "https://claude.ai/artifact/9rBBbMZtz8yim7BnH17PUR", "version": null, "copiedAt": "2026-10-27T07:45:00Z"}
+  ]
+}
