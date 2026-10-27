@@ -8,11 +8,7 @@ Every MedSource publication in one place: social posts, signage and print, plus 
 
 | Date | Publication | Branch | Status | Preview |
 | --- | --- | --- | --- | --- |
-| Nov 9, 2026 | [#MedMura MAX: For Clinics & Hospitals](posts/2026-11-09-medmura-max-for-clinics/post.md) | Sta. Lucia Mall | Scheduled | <img src="posts/2026-11-09-medmura-max-for-clinics/feed-1080x1350.png" width="120"> |
-| Nov 5, 2026 | [#MedMura MAX: Test Strips & OR Essentials](posts/2026-11-05-medmura-max-diagnostics-or/post.md) | Sta. Lucia Mall | Scheduled | <img src="posts/2026-11-05-medmura-max-diagnostics-or/feed-1080x1350.png" width="120"> |
-| Nov 2, 2026 | [#MedMura MAX: Clinic Supplies](posts/2026-11-02-medmura-max-clinic-supplies/post.md) | Sta. Lucia Mall | Scheduled | <img src="posts/2026-11-02-medmura-max-clinic-supplies/feed-1080x1350.png" width="120"> |
-| Oct 30, 2026 | [#MedMura MAX: Vitamins & OTC Picks](posts/2026-10-30-medmura-max-vitamins-otc/post.md) | Sta. Lucia Mall | Scheduled | <img src="posts/2026-10-30-medmura-max-vitamins-otc/feed-1080x1350.png" width="120"> |
-| Oct 27, 2026 | [#MedMura MAX: Katinko Favorites](posts/2026-10-27-medmura-max-katinko/post.md) | Sta. Lucia Mall | Scheduled | <img src="posts/2026-10-27-medmura-max-katinko/feed-1080x1350.png" width="120"> |
+| Oct 27, 2026 | [#MedMura MAX: Month-End Deals (carousel)](posts/2026-10-27-medmura-max-katinko/post.md) | Sta. Lucia Mall | Scheduled | <img src="posts/2026-10-27-medmura-max-katinko/feed-1080x1350.png" width="120"> |
 | Oct 25, 2026 | [One Outlet Recap](posts/2026-10-25-one-outlet-recap/post.md) | Digital sales | Scheduled | <img src="posts/2026-10-25-one-outlet-recap/feed-1080x1350.png" width="120"> |
 | Oct 23, 2026 | [Accredited](posts/2026-10-23-accreditations/post.md) | Sta. Lucia Mall | Scheduled | <img src="posts/2026-10-23-accreditations/feed-1080x1350.png" width="120"> |
 | Oct 21, 2026 | [Wholesale for Clinics](posts/2026-10-21-wholesale-clinics/post.md) | Digital sales | Scheduled | <img src="posts/2026-10-21-wholesale-clinics/feed-1080x1350.png" width="120"> |
