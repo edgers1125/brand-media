@@ -4,16 +4,16 @@ Healthcare brand of MedSource HealthHub (sister company of MedSource). Design sy
 
 ## Taglines (final, Oct 28, 2026)
 
-| Brand | Tagline | Sign-off |
+| Brand | Main tagline | Supporting tagline |
 | --- | --- | --- |
 | MedSource HealthHub (company) | Advancing Healthcare Solutions | none |
-| M.D. Source (patient brand) | Your neighborhood HealthHub | #AlagangMD |
+| M.D. Source (patient brand) | #AlagangMD | Your neighborhood HealthHub |
 
-- "Your neighborhood HealthHub": Quicksand, sentence case; in two-tone headlines "neighborhood HealthHub" is green. "HealthHub" is always one word with two capital H's.
-- "#AlagangMD" ("MD-level care") is M.D. Source's sign-off, like MedSource's "Certified #MedMura": Quicksand Bold, "#Alagang" navy (white on navy), "MD" green (#A0D765 on navy). Once per piece, at the end or in the footer.
-- On joint MedSource + M.D. Source material each brand keeps its own sign-off on its own side.
+M.D. Source's pair works like MedSource's "Certified #MedMura" (main) and "Trust us, we've got it MedicALL" (supporting).
 
-Letterhead format: [LETTERHEAD-SPEC.md](../LETTERHEAD-SPEC.md). No em dashes.
+- "#AlagangMD" ("MD-level care") is the main tagline. Quicksand Bold, "#Alagang" navy (white on navy), "MD" green (#A0D765 on navy). It leads or signs off every piece and is set larger than the supporting tagline when both appear.
+- "Your neighborhood HealthHub" is the supporting tagline that explains what M.D. Source is. Quicksand, sentence case; in two-tone headlines "neighborhood HealthHub" is green. "HealthHub" is always one word with two capital H's.
+- On joint MedSource + M.D. Source material each brand keeps its own taglines on its own side.
 
 ## Print
 
