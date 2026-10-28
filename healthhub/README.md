@@ -1,6 +1,17 @@
 # HealthHub by MedSource
 
-Healthcare brand of MedSource HealthHub (sister company of MedSource). Design system: [MedSource HealthHub Design System](https://claude.ai/artifact/9rBBbMZtz8yim7BnH17PUR). Colours: navy #033F75, green #5FA122, grey #646464, flat only (gradients stay inside the logo). Fonts: Nunito (text, taglines), Quicksand (display); the supplied logo keeps its own Poppins lettering. Tagline: Advancing Healthcare Solutions.
+Healthcare brand of MedSource HealthHub (sister company of MedSource). Design system: [MedSource HealthHub Design System](https://claude.ai/artifact/9rBBbMZtz8yim7BnH17PUR). Colours: navy #033F75, green #5FA122, grey #646464, flat only (gradients stay inside the logo). Fonts: Nunito (text, taglines), Quicksand (display); the supplied logo keeps its own Poppins lettering. Company tagline (MedSource HealthHub): Advancing Healthcare Solutions.
+
+## Taglines (final, Oct 28, 2026)
+
+| Brand | Tagline | Sign-off |
+| --- | --- | --- |
+| MedSource HealthHub (company) | Advancing Healthcare Solutions | none |
+| M.D. Source (patient brand) | Your neighborhood HealthHub | #AlagangMD |
+
+- "Your neighborhood HealthHub": Quicksand, sentence case; in two-tone headlines "neighborhood HealthHub" is green. "HealthHub" is always one word with two capital H's.
+- "#AlagangMD" ("MD-level care") is M.D. Source's sign-off, like MedSource's "Certified #MedMura": Quicksand Bold, "#Alagang" navy (white on navy), "MD" green (#A0D765 on navy). Once per piece, at the end or in the footer.
+- On joint MedSource + M.D. Source material each brand keeps its own sign-off on its own side.
 
 Letterhead format: [LETTERHEAD-SPEC.md](../LETTERHEAD-SPEC.md). No em dashes.
 
