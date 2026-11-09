@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<title>MedSource YAKAP ad All branches {{W}}x{{H}}</title>
+<style>
+  @font-face { font-family: "Poppins"; font-weight: 400; src: url("../../../brand/fonts/poppins/Poppins-Regular.ttf"); }
+  @font-face { font-family: "Poppins"; font-weight: 500; src: url("../../../brand/fonts/poppins/Poppins-Medium.ttf"); }
+  @font-face { font-family: "Poppins"; font-weight: 600; src: url("../../../brand/fonts/poppins/Poppins-SemiBold.ttf"); }
+  @font-face { font-family: "Poppins"; font-weight: 700; src: url("../../../brand/fonts/poppins/Poppins-Bold.ttf"); }
+  @font-face { font-family: "Poppins"; font-weight: 800; src: url("../../../brand/fonts/poppins/Poppins-ExtraBold.ttf"); }
+  :root { --forest:#445C44; --navy:#033F75; --navy-deep:#022A4F; --green:#7AB537; --tint:#E9EFE6; --slate:#5A6470; --mx:64px; --pt:{{PT}}px; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  html,body { width:{{W}}px; height:{{H}}px; overflow:hidden; font-family:"Poppins",sans-serif; background:#fff; }
+  .page { width:{{W}}px; height:{{H}}px; display:flex; flex-direction:column; }
+  .top { padding: var(--pt) var(--mx) 40px; display:flex; justify-content:space-between; align-items:center; }
+  .logo { height:92px; }
+  .branch { text-align:right; color:var(--slate); font-weight:600; font-size:22px; letter-spacing:.14em; text-transform:uppercase; line-height:1.35; }
+  .branch b { display:block; color:var(--forest); font-weight:700; font-size:28px; letter-spacing:.06em; }
+  .hero { background:var(--forest); padding:60px var(--mx) 64px; flex: 1 1 auto; display:flex; flex-direction:column; justify-content:center; }
+  .pill { align-self:flex-start; background:var(--green); color:#fff; font-weight:700; font-size:26px; letter-spacing:.1em; text-transform:uppercase; height:56px; padding:0 30px; border-radius:999px; display:flex; align-items:center; margin-bottom:30px; }
+  .q { color:#fff; font-weight:600; font-size:52px; line-height:1.1; }
+  .title { color:#fff; font-weight:800; font-size:{{TS}}px; line-height:.98; text-transform:uppercase; letter-spacing:-.01em; margin-top:10px; }
+  .title span { color:var(--green); }
+  .sub { color:#fff; font-size:29px; line-height:1.45; margin-top:30px; max-width:900px; }
+  .stripe { height:14px; background:var(--green); flex:none; }
+  .steps { padding:44px var(--mx); display:grid; grid-template-columns:repeat(3,1fr); gap:18px; flex:none; }
+  .step { background:var(--tint); border-radius:20px; padding:24px 22px; display:flex; flex-direction:column; gap:14px; }
+  .n { width:58px; height:58px; border-radius:50%; background:var(--navy); color:#fff; font-weight:700; font-size:30px; display:flex; align-items:center; justify-content:center; }
+  .n.g { background:var(--green); color:var(--navy-deep); }
+  .step p { color:var(--navy); font-weight:700; font-size:27px; line-height:1.2; }
+  .foot { background:var(--navy); padding:38px var(--mx) var(--pb); flex:none; color:#fff; }
+  .row { display:flex; justify-content:space-between; align-items:flex-end; gap:24px; }
+  .label { color:var(--green); font-weight:700; font-size:20px; letter-spacing:.14em; text-transform:uppercase; margin-bottom:6px; }
+  .phone { font-weight:700; font-size:54px; line-height:1; white-space:nowrap; }
+  .msg { background:var(--green); color:var(--navy-deep); font-weight:700; font-size:26px; letter-spacing:.06em; text-transform:uppercase; height:64px; padding:0 30px; border-radius:14px; display:flex; align-items:center; white-space:nowrap; }
+  .addr { font-size:22px; line-height:1.4; margin-top:22px; opacity:.92; }
+  .tag { margin-top:20px; padding-top:18px; border-top:1px solid rgba(255,255,255,.22); font-weight:700; font-size:34px; text-align:right; }
+  .tag .c { font-weight:500; font-size:19px; letter-spacing:.14em; text-transform:uppercase; margin-right:10px; vertical-align:5px; }
+  .tag span { color:var(--green); }
+  body.feed .top { padding-bottom: 30px; }
+  body.feed .logo { height: 80px; }
+  body.feed .hero { padding: 40px var(--mx) 44px; }
+  body.feed .pill { margin-bottom: 20px; height: 50px; font-size: 23px; }
+  body.feed .q { font-size: 44px; }
+  body.feed .sub { font-size: 26px; margin-top: 22px; }
+  body.feed .steps { padding: 30px var(--mx); }
+  body.feed .step { padding: 18px 20px; flex-direction: row; align-items: center; }
+  body.feed .step p { font-size: 24px; }
+  body.feed .n { flex: none; width: 50px; height: 50px; font-size: 26px; }
+  body.feed .foot { padding-top: 30px; }
+  body.feed .addr { display: none; }
+  body.feed .tag { margin-top: 16px; padding-top: 14px; font-size: 30px; }
+  .title.big { font-size: {{TB}}px; line-height: .95; margin-top: 6px; }
+  .claim { margin-top: 30px; background: var(--green); color: var(--navy-deep); border-radius: 18px; display: flex; align-items: center; justify-content: space-between; padding: 22px 36px; }
+  .claim .l { font-weight: 700; font-size: 32px; letter-spacing: .08em; line-height: 1.1; text-transform: uppercase; }
+  .claim .amt { font-weight: 800; font-size: 104px; line-height: 1; letter-spacing: -.01em; white-space: nowrap; }
+  .claim .amt small { font-size: 46px; font-weight: 700; margin-right: 10px; }
+  body.feed .claim { margin-top: 22px; padding: 14px 32px; }
+  body.feed .claim .amt { font-size: 88px; }
+  body.feed .sub { display: none; }
+  .photo { flex: none; height: {{PH}}px; background: url("pharmacy.webp") center 55% / cover no-repeat; }
+  body.feed .steps { padding: 22px var(--mx); }
+  body.feed .step { padding: 14px 18px; }
+  body.feed .step p { font-size: 22px; }
+  body.feed .hero { padding-top: 30px; padding-bottom: 34px; }
+  body.feed .title.big { font-size: 128px; }
+  body.feed .claim .amt { font-size: 78px; }
+  body.feed .q { font-size: 40px; }
+  body.story .hero { padding-top: 44px; padding-bottom: 44px; }
+  body.story .title.big { font-size: 150px; }
+  body.story .sub { display: none; }
+  body.story .steps { padding-top: 34px; padding-bottom: 34px; }
+  .hero { background: linear-gradient(180deg, rgba(40,58,42,.80) 0%, rgba(40,58,42,.90) 100%), url("pharmacy.webp") center 45% / cover no-repeat; }
+  .photo { display: none; }
+  body.feed .steps { padding: 30px var(--mx); }
+  body.feed .step { padding: 22px 20px; }
+  body.feed .step p { font-size: 24px; }
+  body.story .sub { display: block; }
+  body.story .title.big { font-size: 170px; }
+  .title span { text-shadow: 0 2px 18px rgba(0,0,0,.25); }
+  .branch b { font-size: 26px; }
+  .brs { display:grid; grid-template-columns: 1fr 1fr; gap: 28px; }
+  .br .phone { font-size: 46px; }
+  .br .ad { font-size: 19px; line-height: 1.35; margin-top: 8px; opacity: .9; }
+  body.feed .br .ad { display: none; }
+  .tag2 { display:flex; justify-content:space-between; align-items:center; margin-top: 22px; padding-top: 18px; border-top: 1px solid rgba(255,255,255,.22); }
+  .tg { font-weight:700; font-size:32px; }
+  .tg .c { font-weight:500; font-size:18px; letter-spacing:.14em; text-transform:uppercase; margin-right:10px; vertical-align:5px; }
+  .tg span { color: var(--green); }
+  body.feed .msg { height: 56px; font-size: 22px; }
+  body.feed .tag2 { margin-top: 16px; padding-top: 14px; }
+  .hot { display:flex; justify-content:space-between; align-items:flex-end; gap:24px; }
+  .hot .phone { font-size: 60px; }
+  .brs { margin-top: 22px; }
+  .br { font-size: 22px; line-height: 1.35; }
+  .br b { font-weight: 700; }
+  .br .ad { display:block; font-size: 18px; opacity: .85; margin-top: 4px; }
+  .tag2 { justify-content: flex-end; }
+  body.feed .hot .phone { font-size: 54px; }
+  body.feed .brs { margin-top: 16px; }
+  body.feed .br { font-size: 21px; }
+  body.feed .steps { padding: 24px var(--mx); }
+  body.feed .step { padding: 16px 20px; }
+</style></head>
+<body class="{{CLS}}" style="--pb:{{PB}}px"><div class="page">
+  <div class="top">
+    <img class="logo" src="../../../brand/logos/medsource/medsource-landscape.svg" alt="MedSource">
+    <div class="branch">Now at our<b>Sta. Lucia Mall</b><b>and San Mateo</b>branches</div>
+  </div>
+  <div class="hero">
+    <div class="pill">PhilHealth YAKAP accredited</div>
+    <div class="q">May PhilHealth ka?</div>
+    <div class="title big">Libreng<br><span>Gamot!</span></div>
+    <div class="claim"><div class="l">Claim<br>up to</div><div class="amt"><small>PHP</small>20,000</div></div>
+    <div class="sub">MedSource is now PhilHealth YAKAP accredited. Drop by and we'll help you claim, step by step.</div>
+  </div>
+  <div class="stripe"></div>
+  <div class="photo"></div>
+  <div class="steps">
+    <div class="step"><div class="n">1</div><p>Visit any MedSource branch</p></div>
+    <div class="step"><div class="n">2</div><p>Ask our team about YAKAP</p></div>
+    <div class="step"><div class="n g">3</div><p>Claim your libreng gamot</p></div>
+  </div>
+  <div class="stripe"></div>
+  <div class="foot">
+    <div class="hot">
+      <div><div class="label">PhilHealth YAKAP hotline</div><div class="phone">0927 663 4020</div></div>
+      <div class="msg">Message us</div>
+    </div>
+    <div class="brs">
+      <div class="br"><b>Sta. Lucia Mall</b> (main branch), Cainta<span class="ad">Unit G1-21, Ground Level, Sta Lucia Mall Bldg 1, Felix Ave.</span></div>
+      <div class="br"><b>San Mateo</b>, Rizal<span class="ad">RNC Building, B125 L2-F Gen. Luna Ave., Ampid I</span></div>
+    </div>
+    <div class="tag2"><div class="tg"><span class="c">Certified</span>#Med<span>Mura</span></div></div>
+  </div>
+</div></body></html>

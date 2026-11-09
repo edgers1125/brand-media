@@ -5,7 +5,7 @@
 | Date | Nov 9, 2026 |
 | Type | Print, flyer (for flyering, offline only) |
 | Size | A5, 148 x 210 mm portrait |
-| Branch | Sta. Lucia Mall (0967 325 3555) |
+| Branch | Sta. Lucia Mall (YAKAP hotline 0927 663 4020) |
 | Status | Approved |
 | Design | [source-sta-lucia.html](source-sta-lucia.html), branch template [template.html](template.html) |
 
@@ -32,9 +32,10 @@ Layout at 96 px per inch (559 x 794 px), 30 px (about 8 mm) side margin. No blee
 - Claim up to PHP 20,000
 - 54 kinds of medicines libre with PhilHealth YAKAP: Anti-infectives, Anti-thrombotics, Asthma and COPD, Supportive therapy, Anti-diabetics, Anti-dyslipidemia, Hypertension and cardio, Nervous system
 - Claim here: MedSource Sta. Lucia Mall, Unit G1-21, Ground Level, Sta Lucia Mall Building 1, Felix Avenue, San Isidro, Cainta, Rizal
-- Call or text 0967 325 3555 · MedSource Medical Supplies (Sta Lucia) · Certified #MedMura
+- YAKAP hotline 0927 663 4020 · MedSource Medical Supplies (Sta Lucia) · Certified #MedMura
 
 ## Notes
 
 - "54 kinds" is from the original flyer. News reports since Aug 2025 put the GAMOT list at 75 medicines; confirm before reprinting.
 - New branch version: copy template.html, fill the {{...}} fields, render to PDF at 148 x 210 mm.
+- Nov 9, 2026: phone changed to the YAKAP hotline 0927 663 4020 (used on everything YAKAP related, tied to the Sta. Lucia main branch).

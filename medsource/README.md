@@ -8,6 +8,7 @@ Every MedSource publication in one place: social posts, signage and print, plus 
 
 | Date | Publication | Branch | Status | Preview |
 | --- | --- | --- | --- | --- |
+| Nov 10, 2026 | [Libreng Gamot with PhilHealth YAKAP](posts/2026-11-10-yakap-libreng-gamot/post.md) | All branches (YAKAP hotline) | Scheduled | <img src="posts/2026-11-10-yakap-libreng-gamot/feed-1080x1350.png" width="120"> |
 | Oct 29, 2026 | [#MedMura MAX: Month-End Deals, until Nov 20 (carousel)](posts/2026-10-29-medmura-max-carousel/post.md) | Sta. Lucia Mall | Scheduled | <img src="posts/2026-10-29-medmura-max-carousel/1-katinko-feed-1080x1350.png" width="120"> |
 | Oct 27, 2026 | [#MedMura MAX: Month-End Deals (carousel)](posts/2026-10-27-medmura-max-katinko/post.md) | Sta. Lucia Mall | Scheduled | <img src="posts/2026-10-27-medmura-max-katinko/feed-1080x1350.png" width="120"> |
 | Oct 25, 2026 | [One Outlet Recap](posts/2026-10-25-one-outlet-recap/post.md) | Digital sales | Scheduled | <img src="posts/2026-10-25-one-outlet-recap/feed-1080x1350.png" width="120"> |
