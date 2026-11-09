@@ -25,7 +25,7 @@ Every MedSource publication in one place: social posts, signage and print, plus 
 
 | Date | Piece | Location | Status | Preview |
 | --- | --- | --- | --- | --- |
-| Nov 9, 2026 | [PhilHealth YAKAP "Libreng Gamot" Flyer (A5)](print/2026-11-yakap-libreng-gamot-flyer/print.md) | Sta. Lucia Mall | Approved | <img src="print/2026-11-yakap-libreng-gamot-flyer/mockups/preview-sta-lucia.png" width="85"> |
+| Nov 9, 2026 | [PhilHealth YAKAP "Libreng Gamot" Flyer (A5)](print/2026-11-yakap-libreng-gamot-flyer/print.md) | Sta. Lucia Mall, San Mateo | Approved | <img src="print/2026-11-yakap-libreng-gamot-flyer/mockups/preview-sta-lucia.png" width="85"> |
 | Oct 22, 2026 | [Warehouse Window Sticker v2](print/2026-10-warehouse-window-sticker-v2/print.md) | Warehouse glass wall | Approved | <img src="print/2026-10-warehouse-window-sticker-v2/mockups/full-wall-preview.png" width="120"> |
 | Oct 10, 2026 | [DSWD Tarpaulin 2 x 5 ft](print/2026-10-dswd-tarpaulin/print.md) | Sta. Lucia Mall | Draft | <img src="print/2026-10-dswd-tarpaulin/mockups/preview-1152x2880.png" width="60"> |
 | Oct 13, 2026 | [MedSource Digital Sales Letterhead Template](print/2026-10-medsource-letterhead-template/print.md) | Digital sales | Draft | <img src="print/2026-10-medsource-letterhead-template/medsource-digital-sales-letterhead-header-first-page-2480x500.png" width="120"> |

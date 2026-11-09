@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>MedSource PhilHealth YAKAP Libreng Gamot flyer A5, San Mateo</title>
+<style>
+  @font-face { font-family: "Poppins"; font-weight: 400; src: url("../../brand/fonts/poppins/Poppins-Regular.ttf"); }
+  @font-face { font-family: "Poppins"; font-weight: 500; src: url("../../brand/fonts/poppins/Poppins-Medium.ttf"); }
+  @font-face { font-family: "Poppins"; font-weight: 600; src: url("../../brand/fonts/poppins/Poppins-SemiBold.ttf"); }
+  @font-face { font-family: "Poppins"; font-weight: 700; src: url("../../brand/fonts/poppins/Poppins-Bold.ttf"); }
+  @font-face { font-family: "Poppins"; font-weight: 800; src: url("../../brand/fonts/poppins/Poppins-ExtraBold.ttf"); }
+
+  /* A5 portrait 148 x 210 mm, laid out at 96 px per inch = 559 x 794 px */
+  @page { size: 148mm 210mm; margin: 0; }
+  :root {
+    --forest: #445C44; --navy: #033F75; --navy-deep: #022A4F;
+    --green: #7AB537; --tint: #E9EFE6; --ink: #1B161F; --slate: #5A6470;
+    --mx: 30px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 559px; height: 794px; background: #fff; font-family: "Poppins", sans-serif; color: var(--ink); overflow: hidden; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page { position: relative; width: 559px; height: 794px; overflow: hidden; }
+  .band { position: absolute; left: 0; width: 559px; }
+
+  .top     { top: 0;     height: 118px; background: #fff; }
+  .hero    { top: 118px; height: 300px; background: var(--forest); }
+  .s1      { top: 418px; height: 7px;   background: var(--green); }
+  .mid     { top: 425px; height: 204px; background: #fff; }
+  .s2      { top: 629px; height: 7px;   background: var(--green); }
+  .foot    { top: 636px; height: 158px; background: var(--navy); }
+
+  /* top */
+  .logo { position: absolute; left: var(--mx); top: 26px; height: 46px; }
+  .branch { position: absolute; left: var(--mx); top: 82px; font-size: 11px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--slate); }
+  .branch b { color: var(--forest); font-weight: 700; }
+  .badge { position: absolute; right: var(--mx); top: 16px; height: 86px; }
+
+  /* hero */
+  .hero-in { position: absolute; left: var(--mx); right: var(--mx); top: 0; bottom: 0; display: flex; flex-direction: column; justify-content: center; }
+  .pill { align-self: flex-start; height: 26px; padding: 0 14px; border-radius: 999px; background: var(--green); color: #fff; font-weight: 700; font-size: 12px; letter-spacing: .1em; text-transform: uppercase; display: flex; align-items: center; margin-bottom: 10px; }
+  .title { color: #fff; font-weight: 800; font-size: 66px; line-height: .98; letter-spacing: -.01em; text-transform: uppercase; }
+  .title span { display: block; }
+  .sub { color: #fff; font-weight: 400; font-size: 13px; line-height: 1.4; margin-top: 14px; max-width: 470px; }
+  .sub b { font-weight: 700; }
+
+  /* middle */
+  .mid-in { position: absolute; left: var(--mx); right: var(--mx); top: 18px; bottom: 18px; display: flex; flex-direction: column; }
+  .head { display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 10px; }
+  .head .h { color: var(--navy); font-weight: 700; font-size: 15px; letter-spacing: .08em; text-transform: uppercase; }
+  .head .k { color: var(--forest); font-weight: 700; font-size: 15px; letter-spacing: .02em; }
+  .tiles { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+  .tile { height: 30px; border-radius: 6px; background: var(--navy); color: #fff; font-weight: 600; font-size: 10.5px; letter-spacing: .05em; text-transform: uppercase; display: flex; align-items: center; padding-left: 12px; gap: 8px; }
+  .tile i { width: 6px; height: 6px; border-radius: 50%; background: var(--green); flex: none; }
+  .tile.f { background: var(--forest); }
+  .claim { margin-top: 12px; flex: 1; border-radius: 10px; background: var(--green); display: flex; align-items: center; justify-content: space-between; padding: 0 22px; color: var(--navy-deep); }
+  .claim .l { font-weight: 700; font-size: 15px; letter-spacing: .08em; line-height: 1.15; text-transform: uppercase; }
+  .claim .amt { font-weight: 800; font-size: 46px; letter-spacing: -.01em; line-height: 1; white-space: nowrap; }
+  .claim .amt small { font-size: 22px; font-weight: 700; margin-right: 6px; letter-spacing: .02em; }
+
+  /* footer */
+  .foot-in { position: absolute; left: var(--mx); right: var(--mx); top: 18px; bottom: 16px; display: flex; flex-direction: column; justify-content: space-between; }
+  .row { display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; }
+  .label { color: var(--green); font-weight: 700; font-size: 10px; letter-spacing: .14em; text-transform: uppercase; margin-bottom: 3px; }
+  .bname { color: #fff; font-weight: 700; font-size: 16px; line-height: 1.15; }
+  .addr { color: #fff; font-weight: 400; font-size: 10.5px; line-height: 1.4; margin-top: 3px; max-width: 300px; }
+  .phone { color: #fff; font-weight: 700; font-size: 26px; line-height: 1.05; white-space: nowrap; text-align: right; }
+  .contact { text-align: right; }
+  .bottom { display: flex; justify-content: space-between; align-items: flex-end; border-top: 1px solid rgba(255,255,255,.22); padding-top: 9px; }
+  .fb { color: #fff; font-size: 10.5px; font-weight: 500; display: flex; align-items: center; gap: 7px; }
+  .fb svg { width: 15px; height: 15px; flex: none; }
+  .tag { color: #fff; font-weight: 700; font-size: 17px; line-height: 1; white-space: nowrap; }
+  .tag .c { font-weight: 500; font-size: 10px; letter-spacing: .14em; text-transform: uppercase; margin-right: 6px; vertical-align: 2px; }
+  .tag span { color: var(--green); }
+  .q { color:#fff; font-weight:600; font-size:20px; line-height:1.1; margin-bottom:4px; }
+  .title.agg { font-size: 94px; line-height: .9; letter-spacing: -.02em; }
+  .title.agg span + span { color: var(--green); }
+  .hclaim { margin-top: 14px; background: var(--green); color: var(--navy-deep); border-radius: 10px; display:flex; align-items:center; justify-content:space-between; padding: 8px 20px; }
+  .hclaim .l { font-weight:700; font-size:15px; letter-spacing:.08em; line-height:1.1; text-transform:uppercase; }
+  .hclaim .amt { font-weight:800; font-size:54px; line-height:1; letter-spacing:-.01em; white-space:nowrap; }
+  .hclaim .amt small { font-size:24px; font-weight:700; margin-right:6px; }
+  .bighead { display:flex; align-items:center; gap:12px; margin-bottom:8px; }
+  .bighead .num { color: var(--forest); font-weight:800; font-size:44px; line-height:.9; }
+  .bighead .txt { color: var(--navy); font-weight:700; font-size:15px; letter-spacing:.06em; line-height:1.15; text-transform:uppercase; }
+  .bighead .txt b { color: var(--forest); }
+  .tile { height: 25px; font-size: 10.5px; }
+  .tiles { gap: 5px 6px; }
+  .mid-in { top: 14px; bottom: 14px; }
+  .hero-in { justify-content: center; padding: 6px 0; }
+  .tile i { width:14px; height:14px; border-radius:50%; background:var(--green); display:flex; align-items:center; justify-content:center; }
+  .tile i::after { content:""; width:5px; height:8px; border: solid var(--navy-deep); border-width:0 2px 2px 0; transform: rotate(45deg) translate(-1px,-1px); }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="band top">
+    <img class="logo" src="../../brand/logos/medsource/medsource-landscape.svg" alt="MedSource Medical Supplies &amp; Equipment">
+    <div class="branch">Now at our <b>San Mateo</b> branch</div>
+    <img class="badge" src="../../brand/logos/accreditation/philhealth-yakap-gamot-accredited.svg" alt="PhilHealth YAKAP Gamot Accredited">
+  </div>
+
+  <div class="band hero">
+    <div class="hero-in">
+      <div class="q">May PhilHealth ka?</div>
+      <div class="title agg"><span>Libreng</span><span>Gamot!</span></div>
+      <div class="hclaim"><div class="l">Claim<br>up to</div><div class="amt"><small>PHP</small>20,000</div></div>
+    </div>
+  </div>
+
+  <div class="band s1"></div>
+
+  <div class="band mid">
+    <div class="mid-in">
+      <div class="bighead"><div class="num">75</div><div class="txt">Kinds of medicines<br><b>libre with PhilHealth YAKAP</b></div></div>
+      <div class="tiles">
+        <div class="tile"><i></i>Anti-infectives</div>
+        <div class="tile f"><i></i>Anti-thrombotics</div>
+        <div class="tile f"><i></i>Asthma and COPD</div>
+        <div class="tile"><i></i>Supportive therapy</div>
+        <div class="tile"><i></i>Anti-diabetics</div>
+        <div class="tile f"><i></i>Anti-dyslipidemia</div>
+        <div class="tile f"><i></i>Hypertension and cardio</div>
+        <div class="tile"><i></i>Nervous system</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="band s2"></div>
+
+  <div class="band foot">
+    <div class="foot-in">
+      <div class="row">
+        <div>
+          <div class="label">Claim here</div>
+          <div class="bname">MedSource San Mateo</div>
+          <div class="addr">RNC Building, B125 L2-F Gen. Luna Avenue, Ampid I, San Mateo, Rizal 1850</div>
+        </div>
+        <div class="contact">
+          <div class="label">Call or text</div>
+          <div class="phone">0956 783 2775</div>
+        </div>
+      </div>
+      <div class="bottom">
+        <div class="fb"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#fff"/><path fill="#033F75" d="M13.4 19.5v-6.2h2.1l.3-2.5h-2.4V9.3c0-.7.2-1.2 1.2-1.2h1.3V5.9c-.2 0-1-.1-1.9-.1-1.9 0-3.2 1.1-3.2 3.3v1.8H8.7v2.5h2.1v6.2h2.6z"/></svg>MedSource Medical Supplies (San Mateo)</div>
+        <div class="tag"><span class="c">Certified</span>#Med<span>Mura</span></div>
+      </div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>
