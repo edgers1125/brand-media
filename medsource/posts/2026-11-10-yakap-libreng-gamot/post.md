@@ -14,9 +14,9 @@
 
 | Platform | When | Status |
 | --- | --- | --- |
-| Facebook feed | Tue Nov 10, 10:00 AM | Scheduled |
-| Instagram feed | Tue Nov 10, 7:00 PM | Scheduled |
-| FB + IG story | Tue Nov 10, 7:30 PM | Scheduled |
+| [Facebook feed](https://app.metricool.com/planner/calendar?blogId=7293138&openWithPostUuid=-2698789121763423510) | Tue Nov 10, 10:00 AM | Scheduled in Metricool |
+| [Instagram feed](https://app.metricool.com/planner/calendar?blogId=7293138&openWithPostUuid=-3698377508009326622) | Tue Nov 10, 7:00 PM | Scheduled in Metricool |
+| [FB + IG story](https://app.metricool.com/planner/calendar?blogId=7293138&openWithPostUuid=-4943043357343724937) | Tue Nov 10, 7:30 PM | Scheduled in Metricool |
 
 ## Images
 
